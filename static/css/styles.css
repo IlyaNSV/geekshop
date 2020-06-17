@@ -3,7 +3,7 @@
 html,
 body {
     padding: 0px;
-    background-image: url(img/body_texture.jpg);
+    background-image: url(/static/img/body_texture.jpg);
     margin: 0 auto;
     
 }
@@ -98,7 +98,7 @@ p::first-letter{
 }
 
 .char {
-    list-style-image: url(img/marker.png);
+    list-style-image: url(/static/img/marker.png);
     font-family: serif;
     font-style:italic;
     color: black;
