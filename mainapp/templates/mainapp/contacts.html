@@ -8,35 +8,39 @@
 </head>
 
 <body>
-    <div class="header"> <span class="name">Kingsman</span> <span class="slogan">Одежда для настоящих джентельменов</span> <img width="90" class="logo" src="img/logo.png" alt="">
-        <ul class="main_menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+<div class="header"><span class="name">Kingsman</span> <span class="slogan">Одежда для настоящих джентельменов</span>
+    <img width="90" class="logo" src="img/logo.png" alt="">
+    <ul class="main_menu">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/catalog/">Каталог</a></li>
+        <li><a href="/contacts/">Контакты</a></li>
+    </ul>
+</div>
+<div class="body">
+    <h1 class="headline">Наши контакты</h1>
+    <div class="contacts">
+        <form class="form" action="">
+            <fieldset>
+                <legend>Мы вам перезвоним! Заполните форму ниже:</legend>
+                Ваше имя:
+                <input type="text" placeholder="Введите ваше имя">
+                <br> Ваш номер телефона:
+                <input type="telephone" placeholder="Введите номер">
+                <br>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сбросить"></fieldset>
+        </form>
     </div>
-    <div class="body">
-        <h1 class="headline">Наши контакты</h1>
-        <div class="contacts">
-            <form class="form" action="">
-                <fieldset>
-                    <legend>Мы вам перезвоним! Заполните форму ниже:</legend> Ваше имя:
-                    <input type="text" placeholder="Введите ваше имя">
-                    <br> Ваш номер телефона:
-                    <input type="telephone" placeholder="Введите номер">
-                    <br>
-                    <input type="submit" value="Отправить">
-                    <input type="reset" value="Сбросить"> </fieldset>
-            </form>
-        </div>
-        <div class="map_desc">
-            <h3>Вы можете нас найти по адресу г.Омск, улица Гагарина 14, 4 этаж.</h3>
-            <iframe style="width: 100%; outline: 2px solid black" src="https://yandex.ru/map-widget/v1/?um=constructor%3A18fa8629dad96b908aa43cc9c6089cb670ae4d57d38054948fd8bda39b4b04dc&amp;source=constructor" width="657" height="609" frameborder="0"></iframe>
-        </div>
+    <div class="map_desc">
+        <h3>Вы можете нас найти по адресу г.Омск, улица Гагарина 14, 4 этаж.</h3>
+        <iframe style="width: 100%; outline: 2px solid black"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A18fa8629dad96b908aa43cc9c6089cb670ae4d57d38054948fd8bda39b4b04dc&amp;source=constructor"
+                width="657" height="609" frameborder="0"></iframe>
     </div>
-    <div class="footer">
-        <p class="rights">&copy; Все права защищены</p>
-    </div>
+</div>
+<div class="footer">
+    <p class="rights">&copy; Все права защищены</p>
+</div>
 </body>
 
 </html>
