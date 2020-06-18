@@ -318,3 +318,19 @@ th {
     border-color: deepskyblue;
 }
 
+.productCell{
+    display: inline-block;
+    margin-right: 30px;
+    border: 2px solid cornflowerblue;
+    background-color: darkslateblue;
+    width: 300px;
+}
+
+.productCell span {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    color: aliceblue;
+}
