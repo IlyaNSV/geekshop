@@ -22,7 +22,7 @@ p::first-letter{
     height: 160px;
 }
 
-.body {
+.container {
     min-height: 600px;
     height: auto;
 }
@@ -317,3 +317,4 @@ th {
     color: deepskyblue;
     border-color: deepskyblue;
 }
+
