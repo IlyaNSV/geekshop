@@ -3,11 +3,15 @@
 {% block bodyContent %}
     {% include 'mainapp/includes/inc__main_menu.html' %}
     <h1 class="headline">Каталог</h1>
-    {% for product in products %}
-    <div class="productCell">
-        <span>Костюм мужской {{ product.name }} </span>
-        <img width="300px" height="400px" src="{% static product.picture %}" alt="#">
-        <span>Цена {{ product.price }}</span>
+    {% include 'mainapp/includes/inc__category_menu.html' %}
+    <div style="margin: 0 auto;">
+        {% for product in products %}
+            <div class="productCell">
+                <span> {{ product.name }} </span>
+                <img width="300px" height="400px" src="{{ product.image.url }}" alt="#">
+                <span>Цена {{ product.price }} руб.</span>
+            </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+
 {% endblock %}

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from datetime import datetime
-# Create your views here.
+from mainapp.models import ProductCategory , Product
 
 date = datetime.now()
 
@@ -21,28 +21,15 @@ def contacts(request):
 
 
 def catalog(request):
-    products = [
-        {
-            'name':'Carlione',
-            'picture':'img/carlione.jpg',
-            'price':'10000'
-        },
-        {
-            'name': 'Palzileri',
-            'picture': 'img/palzileri.jpg',
-            'price': '12000'
-        },
-        {
-            'name': 'Parlamenter',
-            'picture': 'img/parlamenter.jpg',
-            'price': '15000'
-        },
-    ]
+    categories = ProductCategory.objects.all()
+    products = Product.objects.all()
+
 
     context = {
         'page_title': 'Каталог',
         'products': products,
         'year':date.year,
+        'categories':categories,
     }
 
     return render(request, 'mainapp/catalog.html', context)

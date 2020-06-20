@@ -115,6 +115,7 @@ p::first-letter{
     background-color: #363636;
     border-top: 4px groove white;
     text-align: right;
+    width: 100%;
 }
 
 .rights {
@@ -196,22 +197,6 @@ fieldset {
     background-color: #eaeaea;
 }
 
-.catalog {
-    border-collapse: collapse;
-    background: -o-radial-gradient(50% 50%, farthest-corner, white, grey);
-    background: radial-gradient(farthest-corner at 50% 50%, white, grey);
-    margin: 0 auto;
-}
-
-.catalog td,
-th {
-    border: 4px solid black;
-    font-family: serif;
-    font-size: 18px;
-    color: whitesmoke;
-    text-align: center
-}
-
 .catalog div {
     width: 330px;
     margin-bottom: 10px;
@@ -251,7 +236,6 @@ th {
     background-color: #eaeaea;
     margin: 0;
     margin-top: 30px;
-    border: 4px solid black;
 }
 
 .size_table legend{
@@ -321,9 +305,11 @@ th {
 .productCell{
     display: inline-block;
     margin-right: 30px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid whitesmoke;
     background-color: darkslateblue;
     width: 300px;
+    float: left;
+    margin-top: 30px;
 }
 
 .productCell span {
@@ -333,4 +319,36 @@ th {
     font-size: 21px;
     font-weight: 400;
     color: aliceblue;
+}
+
+.catalogMenu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    background-color: darkslateblue;
+}
+
+.catalogMenu li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.catalogMenu > ul > li > a{
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.catalogMenu > ul > li > a:hover{
+    background-color: cornflowerblue;
+}
+
+.clearfix{
+  content: " ";
+  clear: both;
+  display: table;
 }
