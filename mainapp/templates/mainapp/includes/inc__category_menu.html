@@ -1,7 +1,16 @@
 <div class="catalogMenu clearfix">
     <ul>
+        <li>
+            <a href="{% url 'main:category_products' 0 %}">
+                Все
+            </a>
+        </li>
         {% for category in categories %}
-        <li><a href="#">{{ category.name }}</a></li>
+            <li>
+                <a href="{% url 'main:category_products' category.pk %}">
+                    {{ category.name }}
+                </a>
+            </li>
         {% endfor %}
     </ul>
 </div>

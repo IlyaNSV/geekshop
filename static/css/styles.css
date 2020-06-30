@@ -231,9 +231,8 @@ fieldset {
 .headline {
     text-align: center;
     font-size: 40px;
-    color: black;
+    color: whitesmoke;
     font-family: serif;
-    background-color: #eaeaea;
     margin: 0;
     margin-top: 30px;
 }

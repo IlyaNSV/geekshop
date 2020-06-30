@@ -1,0 +1,33 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block bodyContent %}
+    {% include 'mainapp/includes/inc__main_menu.html' %}
+    <h1 class="headline">Каталог</h1>
+    {% include 'mainapp/includes/inc__category_menu.html' %}
+        <div class="related">
+            <div class="title clearfix">
+                <h2 style="color: whitesmoke">Продукты в категории {{ category.name|title }}</h2>
+            </div>
+            <div class="related-products clearfix">
+                {% comment %}{% for product in products %}
+                    <div class="block">
+                        <a href="{% url 'basket:add_product' product.pk %}">
+                            <img src="/media/{{ product.image }}" alt="">
+                            <div class="text">
+                                <img src="/static/img/icon-hover.png" alt="img">
+                                <h4>{{ product.name }}</h4>
+                                <p>{{ product.short_desc }}</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}{% endcomment %}
+                {% for product in products %}
+                    <div class="productCell">
+                        <span> {{ product.name }} </span>
+                        <img width="300px" height="400px" src="{{ product.image.url }}" alt="#">
+                        <span>Цена {{ product.price }} руб.</span>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+{% endblock %}

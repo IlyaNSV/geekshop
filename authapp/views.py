@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-from authapp.forms import ShopUserLoginForm, ShopUserRegisterForm
+from authapp.forms import ShopUserLoginForm, ShopUserRegisterForm, ShopUserUpdateForm
 
 
 def login(request):
@@ -44,3 +44,18 @@ def register(request):
         'form': form,
     }
     return render(request, 'authapp/register.html', context)
+
+
+def update(request):
+    if request.method == 'POST':
+        form = ShopUserUpdateForm(request.POST, request.FILES, instance=request.user)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('auth:update'))
+    else:
+        form = ShopUserUpdateForm(instance=request.user)
+    context={
+        'title':'Профиль пользователя',
+        'form': form,
+    }
+    return render(request, 'authapp/update.html', context)
