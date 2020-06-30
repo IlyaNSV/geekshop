@@ -4,12 +4,12 @@
     {% include 'mainapp/includes/inc__main_menu.html' %}
     <h1 class="headline">Каталог</h1>
     {% include 'mainapp/includes/inc__category_menu.html' %}
-        <div class="related">
-            <div class="title clearfix">
-                <h2 style="color: whitesmoke">Продукты в категории {{ category.name|title }}</h2>
-            </div>
-            <div class="related-products clearfix">
-                {% comment %}{% for product in products %}
+    <div class="related">
+        <div class="title clearfix">
+            <h2 style="color: whitesmoke">Продукты в категории {{ category.name|title }}</h2>
+        </div>
+        <div class="related-products clearfix">
+            {% comment %}{% for product in products %}
                     <div class="block">
                         <a href="{% url 'basket:add_product' product.pk %}">
                             <img src="/media/{{ product.image }}" alt="">
@@ -21,13 +21,15 @@
                         </a>
                     </div>
                 {% endfor %}{% endcomment %}
-                {% for product in products %}
-                    <div class="productCell">
-                        <span> {{ product.name }} </span>
+            {% for product in products %}
+                <div class="productCell">
+                    <span> {{ product.name }} </span>
+                    <a href="{% url 'basket:add_product' product.pk %}">
                         <img width="300px" height="400px" src="{{ product.image.url }}" alt="#">
-                        <span>Цена {{ product.price }} руб.</span>
-                    </div>
-                {% endfor %}
-            </div>
+                    </a>
+                    <span>Цена {{ product.price }} руб.</span>
+                </div>
+            {% endfor %}
         </div>
+    </div>
 {% endblock %}
