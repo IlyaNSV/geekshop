@@ -351,3 +351,9 @@ fieldset {
   clear: both;
   display: table;
 }
+
+.active {
+	color: #212121;
+	font-weight: 700;
+	border-bottom: 3px solid #212121;
+}
