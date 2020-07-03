@@ -4,11 +4,14 @@ from mainapp.models import ProductCategory, Product
 
 date = datetime.now()
 
+def get_basket(request):
+    return request.user.is_authenticated and request.user.basket_set.all() or []
 
 def index(request):
     context = {
         'page_title': 'Главная',
         'year': date.year,
+        'basket': get_basket(request),
     }
     return render(request, 'mainapp/index.html', context)
 
@@ -17,6 +20,7 @@ def contacts(request):
     context = {
         'page_title': 'Контакты',
         'year': date.year,
+        'basket': get_basket(request),
     }
     return render(request, 'mainapp/contacts.html', context)
 
@@ -30,6 +34,7 @@ def products(request):
         'products': products,
         'year': date.year,
         'categories': categories,
+        'basket': get_basket(request),
     }
 
     return render(request, 'mainapp/products.html', context)
@@ -50,5 +55,6 @@ def category_products(request, pk):
         'categories': categories,
         'products' : products,
         'category' : category,
+        'basket': get_basket(request),
     }
     return render(request, 'mainapp/category_products.html', context)
