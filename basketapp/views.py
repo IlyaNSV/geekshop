@@ -5,6 +5,15 @@ from django.shortcuts import render, get_object_or_404
 from basketapp.models import Basket
 from mainapp.models import Product
 
+
+@login_required
+def index(request):
+    context = {
+        'basket': request.user.basket.all()
+    }
+    return render(request, 'basketapp/index.html', context)
+
+
 @login_required
 def add_product(request, pk):
     product = get_object_or_404(Product, pk = pk)
