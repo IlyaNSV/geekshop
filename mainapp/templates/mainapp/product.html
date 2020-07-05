@@ -1,0 +1,27 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block bodyContent %}
+
+    {% include 'mainapp/includes/inc__main_menu.html' %}
+
+    <div>
+        {% include 'mainapp/includes/inc__category_menu.html' %}
+        <div>
+            <div class="details-slider">
+                <div class="slider-product">
+                    <img style="width: 300px;height:400px ;"
+                         src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
+                </div>
+            <div>
+                <h3 style="color: whitesmoke; font-size: 40px">{{ product.name }}</h3>
+                <p style="color: whitesmoke; font-size: 30px"> {{ product.price }} <span>руб</span></p>
+                <a style="color: whitesmoke; font-size: 25px" href="{% url 'basket:add_product' product.pk %}" >
+                    заказать
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

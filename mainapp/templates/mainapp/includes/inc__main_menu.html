@@ -26,13 +26,13 @@
         </li>
         <li>
             {% if user.is_authenticated %}
-                <a href="{% url 'basket:index' %}">
-                    <span>
-                        {% if basket %}
-                            {{ basket.0.total_cost|floatformat:0 }} руб ({{ basket.0.total_quantity }} шт)
-                        {% endif %}
-                    </span>
-                </a>
+                {% if basket %}
+                    <a href="{% url 'basket:index' %}">
+                        <span>
+                                {{ basket.0.total_cost|floatformat:0 }} руб ({{ basket.0.total_quantity }} шт)
+                        </span>
+                    </a>
+                {% endif %}
             {% endif %}
         </li>
     </ul>

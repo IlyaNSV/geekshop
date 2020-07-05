@@ -4,8 +4,14 @@ from mainapp.models import ProductCategory, Product
 
 date = datetime.now()
 
+
+def get_menu():
+    return ProductCategory.objects.all()
+
+
 def get_basket(request):
     return request.user.is_authenticated and request.user.basket.all() or []
+
 
 def index(request):
     context = {
@@ -26,14 +32,13 @@ def contacts(request):
 
 
 def products(request):
-    categories = ProductCategory.objects.all()
     products = Product.objects.all()
 
     context = {
         'page_title': 'Каталог',
         'products': products,
         'year': date.year,
-        'categories': categories,
+        'categories': get_menu(),
         'basket': get_basket(request),
     }
 
@@ -41,7 +46,6 @@ def products(request):
 
 
 def category_products(request, pk):
-    categories = ProductCategory.objects.all()
     if pk == '0':
         category = {'pk': 0, 'name': 'Все'}
         products = Product.objects.all()
@@ -52,9 +56,23 @@ def category_products(request, pk):
 
     context = {
         'page_title': 'каталог',
-        'categories': categories,
-        'products' : products,
-        'category' : category,
+        'categories': get_menu(),
+        'products': products,
+        'category': category,
         'basket': get_basket(request),
     }
     return render(request, 'mainapp/category_products.html', context)
+
+
+def product_page(request, pk):
+    product = get_object_or_404(Product, pk=pk)
+
+    context = {
+        'page_title': 'каталог',
+        'categories': get_menu(),
+        'category': product.category,
+        'basket': get_basket(request),
+        'product': product,
+            }
+
+    return render(request,'mainapp/product.html',context)

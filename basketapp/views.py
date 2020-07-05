@@ -1,6 +1,7 @@
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, get_object_or_404
+from django.urls import reverse
 
 from basketapp.models import Basket
 from mainapp.models import Product
@@ -27,3 +28,18 @@ def add_product(request, pk):
     basket.save()
 
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+
+@login_required
+def delete_product(request, pk):
+    basket = get_object_or_404(Basket, pk = pk)
+    basket.delete()
+    return HttpResponseRedirect(reverse('basket:index'))
+
+
+@login_required
+def change(request, pk, quantity):
+    if request.is_ajax():
+        return JsonResponse({
+            'status': True,
+        })

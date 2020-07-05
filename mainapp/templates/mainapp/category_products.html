@@ -24,7 +24,7 @@
             {% for product in products %}
                 <div class="productCell">
                     <span> {{ product.name }} </span>
-                    <a href="{% url 'basket:add_product' product.pk %}">
+                    <a href="{% url 'mainapp:product_page' product.pk %}">
                         <img width="300px" height="400px" src="{{ product.image.url }}" alt="#">
                     </a>
                     <span>Цена {{ product.price }} руб.</span>

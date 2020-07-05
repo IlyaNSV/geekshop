@@ -10,11 +10,11 @@
                     <span class="category_name">{{ item.product.category.name }}</span>
                     <span class="product_name">{{ item.product.name }}</span>
                     <span class="product_price">{{ item.product.price }}&nbspруб</span>
-                    <input type="number" name="{{ item.pk }}" min="0" max="{{ item.product.quantity }}"
+                    <input type="number" name="{{ item.pk }}" min="0" {% comment %}max="{{ item.product.quantity }}{% endcomment %}"
                            value="{{ item.quantity }}">
                     <span class="product_cost">{{ item.product_cost }}&nbspруб</span>
 
-                    <a href="{#% url 'basket:delete' item.pk %#}" class="btn btn-round">
+                    <a href="{% url 'basket:delete_product' item.pk %}" class="btn btn-round">
                         удалить
                     </a>
                 </div>
