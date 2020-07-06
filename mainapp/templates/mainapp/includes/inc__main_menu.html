@@ -35,5 +35,14 @@
                 {% endif %}
             {% endif %}
         </li>
+        <li>
+            {% if user.is_superuser %}
+                <a href="{% url 'my_admin:index' %}">
+                    <span>
+                        Админка
+                    </span>
+                </a>
+            {% endif %}
+        </li>
     </ul>
 </div>

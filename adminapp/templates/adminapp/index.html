@@ -3,7 +3,7 @@
 
 {% block container %}
     <div class="users_list">
-        <a href="{#% url 'my_admin:user_create' %#}" class="btn btn-primary new_user">
+        <a href="{% url 'my_admin:user_create' %}" class="btn btn-primary new_user">
             новый пользователь
         </a>
         {% for shop_user in object_list %}
@@ -11,10 +11,10 @@
                 <img src="/media/{{ shop_user.avatar }}" alt="{{ shop_user.username }}" style="width: 160px;height:100px ;">
                 <div class="user_role">
                     {% if shop_user.is_superuser %}администратор{% else %}пользователь{% endif %}
-                    <a href="{#% url 'my_admin:user_update' shop_user.pk %#}" class="btn btn-primary">
+                    <a href="{% url 'my_admin:user_update' shop_user.pk %}" class="btn btn-primary">
                         редактировать
                     </a>
-                    <a href="{#% url 'my_admin:user_delete' shop_user.pk %#}" class="btn btn-danger">
+                    <a href="{% url 'my_admin:user_delete' shop_user.pk %}" class="btn btn-danger">
                         удалить
                     </a>
                 </div>
