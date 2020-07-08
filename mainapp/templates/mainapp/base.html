@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-{% load static %}
+<!DOCTYPE html> {% load static %}
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
-    <title>
-        {% block title %}
-            {{ page_title|title }}
-        {% endblock %}
-    </title>
-
-    {% block css %}
-        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    {% endblock %}
-
-    {% block js %}
-    {% endblock %}
-
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> {% block title %} {{ page_title|title }} {% endblock %} </title> {% block css %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> {% endblock %} {% block js %} {% endblock %} </head>
 
 <body>
-{% block bodyContent %}
-
-{% endblock %}
-{% block footer %}
-    <div class="footer clearfix">
-        <p class="rights">&copy; Все права защищены {{ year }} год</p>
-    </div>
-{% endblock %}
-
+    <div class="container"> {% block bodyContent %} {% endblock %} {% block footer %}
+        <div class="footer clearfix">
+            <p class="rights">&copy; Все права защищены {{ year }} год</p>
+        </div> {% endblock %} </div>
 </body>
 
 </html>

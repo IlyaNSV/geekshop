@@ -9,4 +9,5 @@ urlpatterns = [
     path('user/create/', adminapp.user_create, name='user_create'),
     path('user/update/<int:pk>/', adminapp.user_update, name='user_update'),
     path('user/delete/<int:pk>/', adminapp.user_delete, name='user_delete'),
+    path('category/list/', adminapp.categories, name='categories'),
 ]

@@ -4,7 +4,7 @@
     {% include 'mainapp/includes/inc__main_menu.html' %}
     <h1 class="headline">Каталог</h1>
     {% include 'mainapp/includes/inc__category_menu.html' %}
-    <div style="margin: 0 auto;">
+    <div class="productList">
         {% for product in products %}
             <div class="productCell">
                 <span> {{ product.name }} </span>

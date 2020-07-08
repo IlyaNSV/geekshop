@@ -10,7 +10,7 @@
         {% csrf_token %}
         {{ form.as_p }}
         <br>
-        <input class="form-control" type="submit" value="сохранить">
+        <input class="form-control buttons" type="submit" value="сохранить">
     </form>
     <a class="btn btn-default" href="{% url 'main:index' %}">на главную</a>
 

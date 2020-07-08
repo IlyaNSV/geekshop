@@ -3,9 +3,16 @@
         class="slogan">Одежда для настоящих джентельменов</span>
     <img width="90" class="logo" src="{% static 'img/logo.png' %}" alt="">
     <ul class="main_menu">
-        <li><a href="{% url 'main:index' %}">Главная</a></li>
-        <li><a href="{% url 'main:products' %}">Каталог</a></li>
-        <li><a href="{% url 'main:contacts' %}">Контакты</a></li>
+        <li><a href="{% url 'main:index' %}" {% if request.path == '/' %} class="active_link" {% endif %}>Главная</a>
+        </li>
+        <li>
+            <a href="{% url 'main:products' %}"
+                    {% if request.path == '/products/'%}
+               class="active_link"
+                    {% endif %}>Каталог</a>
+        </li>
+        <li><a href="{% url 'main:contacts' %}" {% if request.path == '/contacts/' %} class="active_link" {% endif %}>Контакты</a>
+        </li>
         {% if user.is_authenticated %}
             <li>
                 <a href="{% url 'auth:update' %}">

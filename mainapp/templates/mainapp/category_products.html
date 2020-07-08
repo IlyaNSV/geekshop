@@ -6,9 +6,9 @@
     {% include 'mainapp/includes/inc__category_menu.html' %}
     <div class="related">
         <div class="title clearfix">
-            <h2 style="color: whitesmoke">Продукты в категории {{ category.name|title }}</h2>
+            <h2 style="color: whitesmoke; text-align: center">Продукты в категории {{ category.name|title }}</h2>
         </div>
-        <div class="related-products clearfix">
+        <div class="productList">
             {% comment %}{% for product in products %}
                     <div class="block">
                         <a href="{% url 'basket:add_product' product.pk %}">
