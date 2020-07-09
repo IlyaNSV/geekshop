@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 
-from adminapp.forms import AdminShopUserCreateForm, AdminShopUserUpdateForm
+from adminapp.forms import AdminShopUserCreateForm, AdminShopUserUpdateForm, AdminProductCategoryUpdateForm
 from authapp.models import ShopUser
 from mainapp.models import ProductCategory
 
@@ -18,6 +18,7 @@ def index(request):
     }
 
     return render(request, 'adminapp/index.html', context)
+
 
 @user_passes_test(lambda x: x.is_superuser)
 def user_create(request):
@@ -35,6 +36,7 @@ def user_create(request):
     }
 
     return render(request, 'adminapp/user_update.html', context)
+
 
 @user_passes_test(lambda x: x.is_superuser)
 def user_update(request, pk):
@@ -71,6 +73,7 @@ def user_delete(request, pk):
 
     return render(request, 'adminapp/user_delete.html', context)
 
+
 @user_passes_test(lambda x: x.is_superuser)
 def categories(request):
     categories = ProductCategory.objects.all()
@@ -79,3 +82,57 @@ def categories(request):
         'object_list': categories,
     }
     return render(request, 'adminapp/categories_list.html', context)
+
+
+@user_passes_test(lambda x: x.is_superuser)
+def category_create(request):
+    if request.method == 'POST':
+        form = AdminProductCategoryUpdateForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('my_admin:categories'))
+    else:
+        form = AdminProductCategoryUpdateForm()
+
+    context = {
+        'title': 'категории продуктов/создание',
+        'form': form,
+    }
+
+    return  render(request, 'adminapp/category_update.html', context)
+
+
+@user_passes_test(lambda x: x.is_superuser)
+def category_update(request, pk):
+    obj = get_object_or_404(ProductCategory,pk=pk)
+    if request.method == 'POST':
+        form = AdminProductCategoryUpdateForm(request.POST, request.FILES, instance=obj)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('my_admin:categories'))
+    else:
+        form = AdminProductCategoryUpdateForm(instance=obj)
+
+    context = {
+        'title': 'категории продуктов/создание',
+        'form': form,
+    }
+
+    return render(request, 'adminapp/category_update.html', context)
+
+
+@user_passes_test(lambda x: x.is_superuser)
+def category_delete(request, pk):
+    obj = get_object_or_404(ProductCategory, pk=pk)
+
+    if request.method == 'POST':
+        obj.is_active = not obj.is_active
+        obj.save()
+        return HttpResponseRedirect(reverse('my_admin:categories'))
+
+    context = {
+        'title': 'категории/удаление',
+        'object': obj,
+    }
+
+    return render(request, 'adminapp/category_delete.html', context)

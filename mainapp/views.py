@@ -9,7 +9,7 @@ date = datetime.now()
 
 
 def get_menu():
-    return ProductCategory.objects.all()
+    return ProductCategory.objects.filter(is_active=True)
 
 
 def get_basket(request):
