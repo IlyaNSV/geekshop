@@ -99,12 +99,12 @@ def category_create(request):
         'form': form,
     }
 
-    return  render(request, 'adminapp/category_update.html', context)
+    return render(request, 'adminapp/category_update.html', context)
 
 
 @user_passes_test(lambda x: x.is_superuser)
 def category_update(request, pk):
-    obj = get_object_or_404(ProductCategory,pk=pk)
+    obj = get_object_or_404(ProductCategory, pk=pk)
     if request.method == 'POST':
         form = AdminProductCategoryUpdateForm(request.POST, request.FILES, instance=obj)
         if form.is_valid():
@@ -136,3 +136,15 @@ def category_delete(request, pk):
     }
 
     return render(request, 'adminapp/category_delete.html', context)
+
+
+@user_passes_test(lambda x: x.is_superuser)
+def category_products(request, pk):
+    category = get_object_or_404(ProductCategory, pk=pk)
+    object_list = category.product_set.all()
+    context = {
+        'title': f'продукты категории {category.name}',
+        'object_list': object_list,
+        'category': category,
+    }
+    return render(request, 'adminapp/category_products_list.html', context)
