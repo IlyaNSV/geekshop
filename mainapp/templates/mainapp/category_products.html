@@ -1,5 +1,7 @@
 {% extends 'mainapp/base.html' %}
 {% load static %}
+{% load my_tags %}
+
 {% block bodyContent %}
     {% include 'mainapp/includes/inc__main_menu.html' %}
     <h1 class="headline">Каталог</h1>
@@ -7,7 +9,21 @@
     <div class="related">
         <div class="title clearfix">
             <h2 style="color: whitesmoke; text-align: center">Продукты в категории {{ category.name|title }}</h2>
+            <div class="paginator">
+                {% if products.has_previous %}
+                    <a href="{% url 'main:category_products_pagination' category.pk products.previous_page_number %}">
+                        <
+                    </a>
+                {% endif %}
+                <span class="current">страница {{ products.number }} из {{ products.paginator.num_pages }}</span>
+                {% if products.has_next %}
+                    <a href="{% url 'main:category_products_pagination' category.pk products.next_page_number %}">
+                        >
+                    </a>
+                {% endif %}
+            </div>
         </div>
+
         <div class="productList">
             {% comment %}{% for product in products %}
                     <div class="block">

@@ -8,8 +8,11 @@ urlpatterns = [
     path('', mainapp.index, name='index'),
     path('products/', mainapp.products, name='products'),
 
-    re_path(r'^category/(?P<pk>\d+)/products$',
+    re_path(r'^category/(?P<pk>\d+)/products/$',
             mainapp.category_products, name='category_products'),
+
+    re_path(r'^category/(?P<pk>\d+)/products/(?P<page>\d+)/$',
+            mainapp.category_products, name='category_products_pagination'),
 
     re_path(r'^product/(?P<pk>\d+)/$',
             mainapp.product_page, name='product_page'),

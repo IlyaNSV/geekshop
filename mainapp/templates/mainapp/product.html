@@ -1,12 +1,18 @@
-{% extends 'mainapp/base.html' %} {% load static %} {% block bodyContent %} {% include 'mainapp/includes/inc__main_menu.html' %} {% include 'mainapp/includes/inc__category_menu.html' %}
-<div class="productPage">
-    <div class="details-slider">
-        <div class="productImage"> <img style="width: 300px;height:400px ;" src="/media/{{ product.image }}" alt="{{ product.short_desc }}"> </div>
-        <div class="productInfo">
-            <h3 style="color: whitesmoke; font-size: 40px">{{ product.name }}</h3>
-            <p style="color: whitesmoke; font-size: 30px; display: block;
-                   margin-left: 60px;"> {{ product.price }} <span>руб</span></p> <a class="buttons" href="{% url 'basket:add_product' product.pk %}">
+{% extends 'mainapp/base.html' %} {% load static %} {% block bodyContent %}
+    {% include 'mainapp/includes/inc__main_menu.html' %} {% include 'mainapp/includes/inc__category_menu.html' %}
+    {% load my_tags %}
+    <div class="productPage">
+        <div class="details-slider">
+            <div class="productImage"><img style="width: 300px;height:400px ;"
+                                           src="{{ product.image|media_folder_products }}"
+                                           alt="{{ product.short_desc }}"></div>
+            <div class="productInfo">
+                <h3 style="color: whitesmoke; font-size: 40px">{{ product.name }}</h3>
+                <p style="color: whitesmoke; font-size: 30px; display: block;
+                   margin-left: 60px;"> {{ product.price }} <span>руб</span></p>
+                <a class="buttons" href="{% url 'basket:add_product' product.pk %}">
                     Заказать
-                </a> </div>
-    </div>
-</div> {% endblock %}
+                </a>
+            </div>
+        </div>
+    </div> {% endblock %}
