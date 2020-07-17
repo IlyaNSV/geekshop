@@ -1,7 +1,8 @@
+{% load my_tags %}
 {% if basket %}
     {% for item in basket %}
         <div class="basket_record">
-            <img style="width: 120px;height: 160px ;" src="/media/{{ item.product.image }}"
+            <img style="width: 120px;height: 160px ;" src="{{ item.product.image|media_folder_products }}"
                  alt="{{ item.product.short_desc }}">
             <span class="category_name">{{ item.product.category.name }}</span>
             <span class="product_name">{{ item.product.name }}</span>

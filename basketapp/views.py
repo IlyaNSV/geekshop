@@ -10,20 +10,17 @@ from mainapp.models import Product
 
 @login_required
 def index(request):
-    context = {
-        'basket': request.user.basket.all()
-    }
-    return render(request, 'basketapp/index.html', context)
+    return render(request, 'basketapp/index.html')
 
 
 @login_required
 def add_product(request, pk):
-    product = get_object_or_404(Product, pk = pk)
-    basket = Basket.objects.filter(user = request.user, product = product).first()
-    #basket = request.user.basket_set.filter(product.pk = pk).first()
+    product = get_object_or_404(Product, pk=pk)
+    basket = Basket.objects.filter(user=request.user, product=product).first()
+    # basket = request.user.basket_set.filter(product.pk = pk).first()
 
     if not basket:
-        basket = Basket(user=request.user, product = product)
+        basket = Basket(user=request.user, product=product)
 
     basket.quantity += 1
     basket.save()
@@ -33,7 +30,7 @@ def add_product(request, pk):
 
 @login_required
 def delete_product(request, pk):
-    basket = get_object_or_404(Basket, pk = pk)
+    basket = get_object_or_404(Basket, pk=pk)
     basket.delete()
     return HttpResponseRedirect(reverse('basket:index'))
 
@@ -42,7 +39,7 @@ def delete_product(request, pk):
 def change(request, pk, quantity):
     if request.is_ajax():
         quantity = int(quantity)
-        basket = get_object_or_404(Basket, pk = int(pk))
+        basket = get_object_or_404(Basket, pk=int(pk))
         if quantity <= 0:
             basket.delete()
         else:
@@ -51,7 +48,7 @@ def change(request, pk, quantity):
 
         context = {
             'basket': request.user.basket.all(),
-            }
+        }
 
         result = render_to_string('basketapp/includes/inc__basket_list.html', context)
 

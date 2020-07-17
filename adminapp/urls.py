@@ -19,10 +19,14 @@ urlpatterns = [
     # path('category/delete/<int:pk>/', adminapp.category_delete, name='category_delete'),
     path('category/delete/<int:pk>/', adminapp.ProductCategoryDeleteView.as_view(), name='category_delete'),
     path('category/<int:pk>/products/', adminapp.category_products, name='category_products'),
+    # path('category/<int:pk>/products/', adminapp.CategoryProductsList.as_view(), name='category_products'),
 
     path('category/<int:category_pk>/product/create/', adminapp.product_create, name='product_create'),
+    # path('category/<int:category_pk>/product/create/', adminapp.ProductCreateView.as_view(), name='product_create'),
     # path('product/read/<int:pk>/', adminapp.product_read, name='product_read'),
     path('product/read/<int:pk>/', adminapp.ProductDetailView.as_view(), name='product_read'),
-    path('product/update/<int:pk>/', adminapp.product_update, name='product_update'),
-    path('product/delete/<int:pk>/', adminapp.product_delete, name='product_delete'),
+    # path('product/update/<int:pk>/', adminapp.product_update, name='product_update'),
+    path('product/update/<int:pk>/', adminapp.ProductUpdateView.as_view(), name='product_update'),
+    # path('product/delete/<int:pk>/', adminapp.product_delete, name='product_delete'),
+    path('product/delete/<int:pk>/', adminapp.ProductDeleteView.as_view(), name='product_delete'),
 ]
