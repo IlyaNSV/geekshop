@@ -25,6 +25,8 @@ class ShopUser(AbstractUser):
     def is_activation_key_expired(self):
         return now() > self.activation_key_expires
 
+    # def save(self, *args, **kwargs):
+    #     super().save(*args, **kwargs)
 
     def send_verify_mail(self):
         verify_link = reverse(
@@ -39,3 +41,22 @@ class ShopUser(AbstractUser):
             f'{settings.DOMAIN_NAME} перейдите по ссылке: \n{settings.DOMAIN_NAME}{verify_link}'
 
         return send_mail(title, message, settings.EMAIL_HOST_USER, [self.email], fail_silently=False)
+
+
+class ShopUserProfile(models.Model):
+    MALE = 'мужской'
+    FEMALE = 'женский'
+
+    GENDER_CHOICES = (
+        (MALE, 'M'),
+        (FEMALE, 'W'),
+    )
+
+    user = models.OneToOneField(ShopUser, on_delete=models.CASCADE,
+                                primary_key=True)
+    tagline = models.CharField(verbose_name='теги', max_length=128,
+                               blank=True)
+    aboutMe = models.TextField(verbose_name='о себе', max_length=512,
+                               blank=True)
+    gender = models.CharField(verbose_name='пол', max_length=1,
+                              choices=GENDER_CHOICES, default=MALE)

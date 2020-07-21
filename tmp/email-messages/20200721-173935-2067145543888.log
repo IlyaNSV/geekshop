@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4IHVzZXIyNA==?=
+From: django@geekshop.local
+To: user24@gb.local
+Date: Tue, 21 Jul 2020 11:39:35 -0000
+Message-ID: <159533157545.10336.3047983892056499509@DESKTOP-G9OVQNN>
+
+Для подтверждения учетной записи user24 на порталеhttp://localhost:8000 перейдите по ссылке: 
+http://localhost:8000/auth/verify/user24@gb.local/ee0c080d172870ca6d85306d3039c7be230cd429/
+-------------------------------------------------------------------------------
