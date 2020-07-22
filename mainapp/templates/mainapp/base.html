@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> {% block title %} {{ page_title|title }} {% endblock %} </title> {% block css %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> {% endblock %} {% block js %} {% endblock %}
-    </head>
+    <title> {% block title %} {{ page_title|title }} {% endblock %} </title>
+    {% block css %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    {% endblock %}
+    {% block js %}
+        <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    {% endblock %}
+</head>
 
 <body>
-    <div class="container"> {% block bodyContent %} {% endblock %} {% block footer %}
-        <div class="footer clearfix">
-            <p class="rights">&copy; Все права защищены {{ year }} год</p>
-        </div> {% endblock %} </div>
+<div class="container"> {% block bodyContent %} {% endblock %} {% block footer %}
+    <div class="footer clearfix">
+        <p class="rights">&copy; Все права защищены {{ year }} год</p>
+    </div> {% endblock %} </div>
 </body>
 
 </html>

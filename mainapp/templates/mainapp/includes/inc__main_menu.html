@@ -7,7 +7,7 @@
         </li>
         <li>
             <a href="{% url 'main:category_products' 0 %}"
-                    {% if request.path == '/products/'%}
+                    {% if request.path == '/products/' %}
                class="active_link"
                     {% endif %}>Каталог</a>
         </li>
@@ -15,9 +15,24 @@
         </li>
         {% if user.is_authenticated %}
             <li>
-                <a href="{% url 'auth:update' %}">
-                    {{ user.first_name|default:'пользователь'|title }}
-                </a>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="" data-toggle="dropdown">
+                        {{ user.first_name|default:'пользователь'|title }}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{% url 'auth:update' %}">
+                                профиль
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'ordersapp:index' %}">
+                                заказы
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </li>
         {% endif %}
         <li>
@@ -33,13 +48,15 @@
         </li>
         <li>
             {% if user.is_authenticated %}
-                {% if basket %}
-                    <a href="{% url 'basket:index' %}">
+                <li>
+                    {% if basket %}
+                        <a href="{% url 'basket:index' %}">
                         <span>
                                 {{ basket.0.total_cost|floatformat:0 }} руб ({{ basket.0.total_quantity }} шт)
                         </span>
-                    </a>
-                {% endif %}
+                        </a>
+                    {% endif %}
+                </li>
             {% endif %}
         </li>
         <li>
