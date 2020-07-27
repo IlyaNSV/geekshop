@@ -98,6 +98,7 @@ class ProductCategoryCreateView(SuperUserOnlyMixin, PageTitleMixin, CreateView):
     model = ProductCategory
     success_url = reverse_lazy('my_admin:categories')
     form_class = AdminProductCategoryUpdateForm
+    page_title = 'Новая категория'
 
 
 class ProductCategoryUpdateView(SuperUserOnlyMixin, PageTitleMixin, UpdateView):
@@ -108,6 +109,7 @@ class ProductCategoryUpdateView(SuperUserOnlyMixin, PageTitleMixin, UpdateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'категории/редактирование'
+        print(context)
         return context
 
 

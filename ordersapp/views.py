@@ -63,6 +63,8 @@ class OrderCreate(CreateView):
                 orderitems.instance = self.object
                 orderitems.save()
             self.request.user.basket.all().delete()
+            # for item in self.request.user.basket.all():
+            #     item.delete()
 
         if self.object.get_total_cost() == 0:
             self.object.delete()

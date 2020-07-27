@@ -1,4 +1,5 @@
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, get_object_or_404
 from django.template.loader import render_to_string
@@ -23,6 +24,8 @@ def add_product(request, pk):
         basket = Basket(user=request.user, product=product)
 
     basket.quantity += 1
+    # basket.product.quantity -= 1
+    # basket.product.save()
     basket.save()
 
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
