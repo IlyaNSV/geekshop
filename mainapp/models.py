@@ -6,6 +6,7 @@ class ProductCategory(models.Model):
     description = models.TextField('описание категории', blank=True)
     is_active = models.BooleanField(default=True)
 
+
 class Product(models.Model):
     category = models.ForeignKey(ProductCategory, verbose_name='категория продукта', on_delete=models.CASCADE)
     name = models.CharField('имя продукта', max_length=128)
@@ -15,3 +16,7 @@ class Product(models.Model):
     price = models.DecimalField('цена продукта', max_digits=8, decimal_places=2, default=0)
     quantity = models.PositiveIntegerField('количество на складе', default=0)
     is_active = models.BooleanField(default=True)
+
+    @staticmethod
+    def get_active_items(self):
+        return Product.objects.filter(category__is_active=True, is_active=True)

@@ -21,6 +21,10 @@ class OrderList(ListView):
         # return self.model.objects.filter(user=self.request.user)
         return self.request.user.order_set.all()
 
+# class GetActiveQuerysetMixin():
+#     def get_queryset(self):
+#         qs = super().get_queryset()
+#         return qs.filter(is_active=True)
 
 class OrderCreate(CreateView):
     model = Order
