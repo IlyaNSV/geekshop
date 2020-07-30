@@ -1,5 +1,6 @@
 from django.core import paginator
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime
 
@@ -94,6 +95,19 @@ def category_products(request, pk, page=1):
 #
 #     return render(request, 'mainapp/product_detail.html', context)
 
-class ProductDetailView(DetailView, PageTitleMixin,):
+class ProductDetailView(DetailView, PageTitleMixin, ):
     model = Product
     pk_url_kwarg = 'pk'
+
+
+def product_detail_async(request, pk):
+    if request.is_ajax():
+        try:
+            product = Product.objects.get(pk=pk)
+            return JsonResponse({
+                'product_price': product.price,
+            })
+        except Exception as e:
+            return JsonResponse({
+                    'error': str(e),
+                })

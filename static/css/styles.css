@@ -186,7 +186,6 @@ fieldset input:nth-child(-n+4) {
 
 input[type="text"] {
     margin-left: 110px;
-    text-transform: capitalize;
 }
 
 input[type="telephone"] {

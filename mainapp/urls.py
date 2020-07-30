@@ -21,6 +21,9 @@ urlpatterns = [
     re_path(r'^product/(?P<pk>\d+)/$',
             mainapp.ProductDetailView.as_view(), name='product_page'),
 
+    re_path(r'^product/detail/(?P<pk>\d+)/async/$',
+            mainapp.product_detail_async),
+
     # path('contacts/', mainapp.contacts, name='contacts'),
     path('contacts/', mainapp.ContactsView.as_view(), name='contacts'),
 ]
