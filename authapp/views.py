@@ -81,7 +81,7 @@ def update(request):
     return render(request, 'authapp/update.html', context)
 
 
-def verify(requset,email, activation_key):
+def verify(requset, email, activation_key):
     try:
         user = ShopUser.objects.get(email=email)
         if user.activation_key == activation_key and not user.is_activation_key_expired():
@@ -103,4 +103,3 @@ def create_user_profile(sender, instance, created, **kwargs):
         ShopUserProfile.objects.create(user=instance)
     else:
         instance.shopuserprofile.save()
-

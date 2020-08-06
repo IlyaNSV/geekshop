@@ -1,0 +1,22 @@
+[
+  {
+    "model": "basketapp.basket",
+    "pk": 18,
+    "fields": {
+      "user": 2,
+      "product": 8,
+      "quantity": 2,
+      "add_datetime": "2020-07-04T19:34:09.790Z"
+    }
+  },
+  {
+    "model": "basketapp.basket",
+    "pk": 40,
+    "fields": {
+      "user": 1,
+      "product": 2,
+      "quantity": 2,
+      "add_datetime": "2020-07-28T12:49:51.070Z"
+    }
+  }
+]

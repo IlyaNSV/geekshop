@@ -13,6 +13,7 @@ from geekshop import settings
 def get_activation_key_expires():
     return now() + timedelta(hours=48)
 
+
 class ShopUser(AbstractUser):
     age = models.PositiveSmallIntegerField(verbose_name='возраст', null=True)
     avatar = models.ImageField(upload_to='users_avatars', blank=True)
@@ -38,18 +39,18 @@ class ShopUser(AbstractUser):
         )
         title = f'Подтверждение учетной записи {self.username}'
         message = f'Для подтверждения учетной записи {self.username} на портале' \
-            f'{settings.DOMAIN_NAME} перейдите по ссылке: \n{settings.DOMAIN_NAME}{verify_link}'
+                  f'{settings.DOMAIN_NAME} перейдите по ссылке: \n{settings.DOMAIN_NAME}{verify_link}'
 
         return send_mail(title, message, settings.EMAIL_HOST_USER, [self.email], fail_silently=False)
 
 
 class ShopUserProfile(models.Model):
-    MALE = 'мужской'
-    FEMALE = 'женский'
+    MALE = 'M'
+    FEMALE = 'F'
 
     GENDER_CHOICES = (
-        (MALE, 'M'),
-        (FEMALE, 'W'),
+        (MALE, 'мужской'),
+        (FEMALE, 'женский'),
     )
 
     user = models.OneToOneField(ShopUser, on_delete=models.CASCADE,
@@ -58,5 +59,5 @@ class ShopUserProfile(models.Model):
                                blank=True)
     aboutMe = models.TextField(verbose_name='о себе', max_length=512,
                                blank=True)
-    gender = models.CharField(verbose_name='пол', max_length=1,
+    gender = models.CharField(verbose_name='пол', max_length=15,
                               choices=GENDER_CHOICES, default=MALE)

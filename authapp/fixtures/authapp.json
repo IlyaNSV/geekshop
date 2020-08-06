@@ -1,0 +1,250 @@
+[
+  {
+    "model": "authapp.shopuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$ujA9cRXmNwyI$7k34Gld7IByBTdmqEi3mmWvJaMXMu5HBOKQEQCGtpgA=",
+      "last_login": "2020-07-30T15:20:11.759Z",
+      "is_superuser": true,
+      "username": "django",
+      "first_name": "Django",
+      "last_name": "Ivanov",
+      "email": "admin@geekshop.local",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-06-26T17:07:27.604Z",
+      "age": 30,
+      "avatar": "",
+      "activation_key": "",
+      "activation_key_expires": "2020-07-19T13:36:44.719Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$p20F50bhfX0V$bQ7Kz5mxCuHLAHBBeUAAB5+vKj5MHTVxKkEEpDil2iw=",
+      "last_login": "2020-07-05T16:11:30.389Z",
+      "is_superuser": false,
+      "username": "user1",
+      "first_name": "Django",
+      "last_name": "Ivanov",
+      "email": "ivan_user_number_1@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-06-29T08:58:29.125Z",
+      "age": 30,
+      "avatar": "users_avatars/s1200_1.jpg",
+      "activation_key": "",
+      "activation_key_expires": "2020-07-19T13:36:44.719Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$4gUFQIZno4sk$RiV76R28Yz9cy/271uk5jEQRCBPtG6ItKoDvwcEMYLE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Best_ever_client",
+      "first_name": "Max",
+      "last_name": "Pirogov",
+      "email": "gb@info.ru",
+      "is_staff": true,
+      "is_active": false,
+      "date_joined": "2020-07-06T11:14:11.351Z",
+      "age": 19,
+      "avatar": "",
+      "activation_key": "",
+      "activation_key_expires": "2020-07-19T13:36:44.719Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$jlTfnhfNdH9e$wHZmGwk3FTHMTW6CyllxDW0qf8O1xw2ElliBe5j85S8=",
+      "last_login": "2020-07-17T19:01:11.123Z",
+      "is_superuser": false,
+      "username": "user3",
+      "first_name": "\u0420\u043e\u043c\u0430\u043d",
+      "last_name": "\u0420\u043e\u043c\u0430\u043d\u043e\u0432\u0438\u0447",
+      "email": "user3@gb.local",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-17T18:58:18.184Z",
+      "age": 99,
+      "avatar": "",
+      "activation_key": "c204fb1e56eabdd20ad806b4e4e535998d5c23f3",
+      "activation_key_expires": "2020-07-19T18:58:18.184Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$muhY5avvkwf6$NHZvAerTZDVJDoz6c9T/B3Cfmc5/y6QMdj/rwsURAIg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user4",
+      "first_name": "user4",
+      "last_name": "User4_lastname",
+      "email": "user4@gb.local",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2020-07-18T08:30:36.628Z",
+      "age": 19,
+      "avatar": "",
+      "activation_key": "f37cf252036edfa086df546fa73ab05e972ab8d5",
+      "activation_key_expires": "2020-07-20T08:30:36.628Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$1Q4isnKoy4pR$bj4pUUis/25P5kFMUh8jYwMdR3C75uE0A1lmoeg0IYc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user5",
+      "first_name": "user5",
+      "last_name": "User5_lastname",
+      "email": "user5@gb.local",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2020-07-18T08:37:28.378Z",
+      "age": 30,
+      "avatar": "",
+      "activation_key": "d28db9bec0248f3ceaeaf7d9c235c15602687f9f",
+      "activation_key_expires": "2020-07-20T08:37:28.378Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 7,
+    "fields": {
+      "password": "!a91joXwH8fpt1ucARMcOTA0IZ5lqkK1ZLPX6q41s",
+      "last_login": "2020-07-21T20:29:43.625Z",
+      "is_superuser": false,
+      "username": "inosov182000",
+      "first_name": "\u0418\u043b\u044c\u044f",
+      "last_name": "\u041d\u043e\u0441\u043e\u0432",
+      "email": "inosov182000@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-19T08:10:02.274Z",
+      "age": null,
+      "avatar": "users_avatars/inosov182000gmail.com_ChOiX6p.jpg",
+      "activation_key": "",
+      "activation_key_expires": "2020-07-21T08:10:02.274Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$c8opaX4nrlzE$GsOCOhqfwPJOH0dO0EAPnW4O1IU2LE35mtQOlIw3qnk=",
+      "last_login": "2020-07-21T11:39:57.646Z",
+      "is_superuser": false,
+      "username": "user24",
+      "first_name": "user24",
+      "last_name": "User24_lastname",
+      "email": "user24@gb.local",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-21T11:39:35.196Z",
+      "age": 24,
+      "avatar": "",
+      "activation_key": "ee0c080d172870ca6d85306d3039c7be230cd429",
+      "activation_key_expires": "2020-07-23T11:39:35.197Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 1,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 2,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 3,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 4,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 5,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 6,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 7,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 9,
+    "fields": {
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+    }
+  }
+]
