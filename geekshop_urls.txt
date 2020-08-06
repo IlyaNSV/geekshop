@@ -1,0 +1,44 @@
+/	mainapp.views.IndexView	main:index
+/__debug__/render_panel/	debug_toolbar.views.render_panel	djdt:render_panel
+/__debug__/sql_explain/	debug_toolbar.panels.sql.views.sql_explain	djdt:sql_explain
+/__debug__/sql_profile/	debug_toolbar.panels.sql.views.sql_profile	djdt:sql_profile
+/__debug__/sql_select/	debug_toolbar.panels.sql.views.sql_select	djdt:sql_select
+/__debug__/template_source/	debug_toolbar.panels.templates.views.template_source	djdt:template_source
+/auth/login/	authapp.views.login	auth:login
+/auth/logout/	authapp.views.logout	auth:logout
+/auth/register/	authapp.views.register	auth:register
+/auth/register/complete/<backend>/	social_django.views.complete	social:complete
+/auth/register/disconnect/<backend>/	social_django.views.disconnect	social:disconnect
+/auth/register/disconnect/<backend>/<association_id>/	social_django.views.disconnect	social:disconnect_individual
+/auth/register/login/<backend>/	social_django.views.auth	social:begin
+/auth/update/	authapp.views.update	auth:update
+/auth/verify/<str:email>/<str:activation_key>/	authapp.views.verify	auth:verify
+/basket/	basketapp.views.index	basket:index
+/basket/add/product/<int:pk>/	basketapp.views.add_product	basket:add_product
+/basket/change/<int:pk>/quantity/<int:quantity>/	basketapp.views.change
+/basket/delete/product/<int:pk>/	basketapp.views.delete_product	basket:delete_product
+/category/<pk>/products/	mainapp.views.category_products	main:category_products
+/category/<pk>/products/<page>/	mainapp.views.category_products	main:category_products_pagination
+/contacts/	mainapp.views.ContactsView	main:contacts
+/media\/<path>	django.views.static.serve
+/my/admin/	adminapp.views.ShopUserList	my_admin:index
+/my/admin/category/<int:category_pk>/product/create/	adminapp.views.product_create	my_admin:product_create
+/my/admin/category/<int:pk>/products/	adminapp.views.category_products	my_admin:category_products
+/my/admin/category/create/	adminapp.views.ProductCategoryCreateView	my_admin:category_create
+/my/admin/category/delete/<int:pk>/	adminapp.views.ProductCategoryDeleteView	my_admin:category_delete
+/my/admin/category/list/	adminapp.views.categories	my_admin:categories
+/my/admin/category/update/<int:pk>/	adminapp.views.ProductCategoryUpdateView	my_admin:category_update
+/my/admin/product/delete/<int:pk>/	adminapp.views.ProductDeleteView	my_admin:product_delete
+/my/admin/product/read/<int:pk>/	adminapp.views.ProductDetailView	my_admin:product_read
+/my/admin/product/update/<int:pk>/	adminapp.views.ProductUpdateView	my_admin:product_update
+/my/admin/user/create/	adminapp.views.user_create	my_admin:user_create
+/my/admin/user/delete/<int:pk>/	adminapp.views.user_delete	my_admin:user_delete
+/my/admin/user/update/<int:pk>/	adminapp.views.user_update	my_admin:user_update
+/orders/	ordersapp.views.OrderList	orders:index
+/orders/order/create/	ordersapp.views.OrderCreate	orders:order_create
+/orders/order/delete/<int:pk>/	ordersapp.views.OrderDelete	orders:order_delete
+/orders/order/forming/complete/<int:pk>/	ordersapp.views.order_forming_complete	orders:order_forming_complete
+/orders/order/read/<int:pk>/	ordersapp.views.OrderRead	orders:order_read
+/orders/order/update/<int:pk>/	ordersapp.views.OrderUpdate	orders:order_update
+/product/<pk>/	mainapp.views.ProductDetailView	main:product_page
+/product/detail/<pk>/async/	mainapp.views.product_detail_async

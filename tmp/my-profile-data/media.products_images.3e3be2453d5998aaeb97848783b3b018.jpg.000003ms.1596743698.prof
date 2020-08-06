@@ -1,0 +1,3170 @@
+events: Ticks
+summary: 3
+fn=<method 'values' of 'collections.OrderedDict' objects>
+0  0
+
+fn=<method 'values' of 'mappingproxy' objects>
+0  0
+
+fn=<method 'add' of 'set' objects>
+0  0
+
+fn=<method '__contains__' of 'dict' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'setdefault' of 'dict' objects>
+0  0
+
+fn=<method 'items' of 'dict' objects>
+0  0
+
+fn=<method 'values' of 'dict' objects>
+0  0
+
+fn=<method 'update' of 'dict' objects>
+0  0
+
+fn=<method 'clear' of 'dict' objects>
+0  0
+
+fn=<method 'copy' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'extend' of 'list' objects>
+0  0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=<genexpr>
+calls=14 533
+0 0
+
+fn=<method 'pop' of 'list' objects>
+0  0
+
+fn=<method 'reverse' of 'list' objects>
+0  0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'rstrip' of 'bytes' objects>
+0  0
+
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'rsplit' of 'str' objects>
+0  0
+
+fn=<method 'join' of 'str' objects>
+0  0
+
+fn=<method 'title' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rfind' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isdigit' of 'str' objects>
+0  0
+
+fn=<method 'isidentifier' of 'str' objects>
+0  0
+
+fn=<method 'format' of 'str' objects>
+0  0
+
+fn=<built-in method time.time>
+0  0
+
+fn=<built-in method posix.stat>
+0  0
+
+fn=<built-in method posix.open>
+0  0
+
+fn=<built-in method posix.fspath>
+0  0
+
+fn=<method 'end' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'groups' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'groupdict' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'match' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<method 'search' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<built-in method _stat.S_ISDIR>
+0  0
+
+fn=<built-in method _thread.allocate_lock>
+0  0
+
+fn=<built-in method _thread.get_ident>
+0  0
+
+fn=<built-in method io.open>
+0  0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_opener
+calls=1 1035
+0 0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<built-in method fromtimestamp>
+0  0
+
+fn=<method 'timetuple' of 'datetime.datetime' objects>
+0  0
+
+fn=<built-in method _imp.acquire_lock>
+0  0
+
+fn=<built-in method _imp.release_lock>
+0  0
+
+fn=<built-in method builtins.any>
+0  0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=<genexpr>
+calls=1 602
+0 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/inspect.py
+cfn=<genexpr>
+calls=3 38
+0 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=<genexpr>
+calls=17 109
+0 0
+
+fn=<built-in method builtins.callable>
+0  0
+
+fn=<built-in method builtins.getattr>
+0  0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+
+fn=<built-in method builtins.next>
+0  0
+
+fn=<built-in method builtins.sorted>
+0  0
+
+fn=<built-in method __new__ of type object at 0x9d12c0>
+0  0
+
+fn=<built-in method sys.getrecursionlimit>
+0  0
+
+fn=<built-in method sys._getframe>
+0  0
+
+fn=<built-in method sys.intern>
+0  0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=_prepare_messages
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=update
+115 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=_prepare_messages
+calls=1 108
+115 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/session.py
+fn=__init__
+16 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+16 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+16 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=__init__
+51 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+fn=<listcomp>
+15 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/session.py
+cfn=__init__
+calls=1 16
+15 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+15 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+fn=__init__
+13 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+13 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+cfn=<listcomp>
+calls=1 15
+13 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py
+fn=__init__
+16 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=__init__
+calls=1 44
+16 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+fn=process_response
+22 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=is_empty
+calls=1 141
+22 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+fn=should_redirect_with_slash
+62 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=is_valid_path
+calls=1 150
+62 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+62 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+62 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+fn=process_request
+34 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+cfn=should_redirect_with_slash
+calls=1 62
+34 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=get_host
+calls=1 93
+34 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=get_full_path
+calls=2 121
+34 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+fn=process_request
+18 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__get__
+calls=1 72
+18 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py
+cfn=__init__
+calls=1 16
+18 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+18 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+fn=process_response
+98 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=__init__
+44 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_set_session_key
+calls=1 170
+44 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+44 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=is_empty
+141 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_get_session_key
+calls=1 167
+141 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_validate_session_key
+160 0
+cfn=<built-in method builtins.len>
+calls=1 0
+160 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_get_session_key
+167 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_set_session_key
+170 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_validate_session_key
+calls=1 160
+170 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/auth/middleware.py
+fn=process_request
+17 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 379
+17 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+17 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+fn=process_response
+14 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=update
+calls=1 115
+14 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+14 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/clickjacking.py
+fn=get_xframe_options_value
+37 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+37 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+37 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/clickjacking.py
+fn=process_response
+24 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/clickjacking.py
+cfn=get_xframe_options_value
+calls=1 37
+24 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+24 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=1 155
+24 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+24 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+fn=process_request
+11 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/__init__.py
+cfn=default_storage
+calls=1 5
+11 0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0  0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=__init__
+23 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+23 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+23 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=monkey_patch_template_classes
+calls=1 37
+23 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=monkey_patch_template_classes
+37 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=enable_instrumentation
+125 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=process_request
+148 0
+cfn=<built-in method builtins.len>
+calls=1 0
+148 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+148 1
+cfn=<built-in method builtins.sorted>
+calls=2 0
+148 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=record_stats
+calls=1 134
+148 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+148 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/security.py
+fn=process_response
+30 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=disable_instrumentation
+128 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+fn=__init__
+89 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+89 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+fn=enable_instrumentation
+94 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 273
+94 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+fn=disable_instrumentation
+97 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+fn=process_request
+113 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+113 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/utils.py
+cfn=clear_collection
+calls=1 250
+113 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+fn=__init__
+147 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+147 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+147 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+fn=enable_instrumentation
+234 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/cache/__init__.py
+cfn=__init__
+calls=1 63
+234 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+234 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+fn=disable_instrumentation
+240 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+fn=__init__
+59 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+59 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+fn=process_request
+75 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+75 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/utils.py
+cfn=clear_collection
+calls=1 250
+75 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+fn=disable_instrumentation
+171 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=disconnect
+calls=1 113
+171 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+fn=enable_instrumentation
+168 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+168 0
+
+fn=<built-in method resource.getrusage>
+0  0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=panel_id
+18 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=enabled
+22 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=42 18
+22 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/utils.py
+cfn=get_name_from_obj
+calls=42 145
+22 0
+cfn=<method 'replace' of 'str' objects>
+calls=36 0
+22 0
+cfn=<method 'get' of 'dict' objects>
+calls=42 0
+22 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=enable_instrumentation
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=disable_instrumentation
+122 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=record_stats
+134 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=2 18
+134 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=2 0
+134 0
+cfn=<method 'update' of 'dict' objects>
+calls=2 0
+134 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=process_request
+165 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=6 165
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/timer.py
+cfn=process_request
+calls=1 54
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+cfn=process_request
+calls=1 75
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=process_request
+calls=1 113
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+cfn=process_request
+calls=1 37
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=1 31
+165 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=process_request
+calls=1 148
+165 1
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/utils.py
+fn=get_name_from_obj
+145 0
+cfn=<method 'format' of 'str' objects>
+calls=42 0
+145 0
+cfn=<built-in method builtins.hasattr>
+calls=84 0
+145 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/utils.py
+fn=clear_collection
+250 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=current_thread
+calls=2 1230
+250 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/timer.py
+fn=process_request
+54 0
+cfn=<built-in method time.time>
+calls=1 0
+54 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+54 1
+cfn=<built-in method resource.getrusage>
+calls=1 0
+54 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+fn=<genexpr>
+45 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+fn=<genexpr>
+40 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+cfn=unmangle
+calls=8 63
+40 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+cfn=is_http_header
+calls=101 57
+40 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+fn=process_request
+37 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+37 1
+cfn=<built-in method builtins.sorted>
+calls=1 0
+37 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+cfn=<genexpr>
+calls=9 40
+37 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+cfn=<genexpr>
+calls=16 45
+37 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=record_stats
+calls=1 134
+37 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+37 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+fn=is_http_header
+57 0
+cfn=<method 'startswith' of 'str' objects>
+calls=101 0
+57 0
+cfn=<built-in method builtins.isinstance>
+calls=101 0
+57 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/headers.py
+fn=unmangle
+63 0
+cfn=<method 'replace' of 'str' objects>
+calls=8 0
+63 0
+cfn=<method 'title' of 'str' objects>
+calls=8 0
+63 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+fn=<dictcomp>
+58 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+cfn=queries
+calls=1 152
+58 0
+cfn=<built-in method builtins.len>
+calls=1 0
+58 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=1 194
+58 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+fn=__init__
+56 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+56 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=<dictcomp>
+calls=1 58
+56 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__iter__
+calls=1 212
+56 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+fn=enable_instrumentation
+136 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/tracking.py
+cfn=wrap_cursor
+calls=1 41
+136 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+136 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+fn=disable_instrumentation
+141 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/tracking.py
+cfn=unwrap_cursor
+calls=1 67
+141 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+141 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+fn=__init__
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+67 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/tracking.py
+fn=wrap_cursor
+41 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+41 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/tracking.py
+fn=unwrap_cursor
+67 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+67 0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=start_response
+212 0
+cfn=<built-in method builtins.len>
+calls=1 0
+212 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=__init__
+calls=1 31
+212 0
+cfn=<method 'isdigit' of 'str' objects>
+calls=1 0
+212 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=_convert_string_type
+calls=9 240
+212 0
+cfl=/usr/lib/python3.6/wsgiref/util.py
+cfn=is_hop_by_hop
+calls=4 163
+212 0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=_convert_string_type
+240 0
+
+fl=/usr/lib/python3.6/wsgiref/util.py
+fn=__init__
+14 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+14 0
+
+fl=/usr/lib/python3.6/wsgiref/util.py
+fn=is_hop_by_hop
+163 0
+cfn=<method '__contains__' of 'dict' objects>
+calls=4 0
+163 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+163 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=__init__
+31 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=_convert_string_type
+calls=8 41
+31 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=_convert_string_type
+41 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+fn=__init__
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+cfn=__init__
+calls=1 59
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=8 12
+19 0
+cfn=<method 'pop' of 'list' objects>
+calls=14 0
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=__init__
+calls=1 56
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=__init__
+calls=1 89
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+cfn=__init__
+calls=1 67
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+cfn=__init__
+calls=1 147
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=enabled
+calls=14 22
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=14 18
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=__init__
+calls=1 23
+19 0
+cfn=<method 'append' of 'list' objects>
+calls=14 0
+19 0
+cfn=<method 'copy' of 'dict' objects>
+calls=1 0
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+cfn=get_panel_classes
+calls=1 111
+19 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+fn=<listcomp>
+51 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=enabled
+calls=28 22
+51 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+fn=enabled_panels
+46 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+cfn=<listcomp>
+calls=2 51
+46 0
+cfn=<method 'values' of 'collections.OrderedDict' objects>
+calls=2 0
+46 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+fn=get_panel_classes
+111 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/security.py
+fn=process_request
+20 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+20 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+fn=__init__
+12 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/middleware.py
+fn=__call__
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+cfn=enabled_panels
+calls=2 46
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+cfn=enable_instrumentation
+calls=1 168
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=enable_instrumentation
+calls=7 108
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=enable_instrumentation
+calls=1 136
+47 0
+cfl=/home/ilya/PycharmProjects/geekshop/geekshop/settings.py
+cfn=<lambda>
+calls=1 205
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=is_ajax
+calls=1 230
+47 0
+cfn=<built-in method builtins.any>
+calls=1 0
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+cfn=disable_instrumentation
+calls=1 240
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=disable_instrumentation
+calls=7 122
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=disable_instrumentation
+calls=1 128
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=2 155
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=enable_instrumentation
+calls=1 125
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=disable_instrumentation
+calls=1 141
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=disable_instrumentation
+calls=1 97
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=enable_instrumentation
+calls=1 94
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/cache.py
+cfn=enable_instrumentation
+calls=1 234
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+47 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/panels/templates/panel.py
+cfn=disable_instrumentation
+calls=1 171
+47 0
+cfn=<method 'split' of 'str' objects>
+calls=1 0
+47 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+47 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/toolbar.py
+cfn=__init__
+calls=1 19
+47 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=_should_handle
+34 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+34 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=__call__
+63 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=_should_handle
+calls=1 34
+63 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__call__
+calls=1 137
+63 3
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+63 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py
+fn=inner
+31 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/debug_toolbar/middleware.py
+cfn=__call__
+calls=1 47
+31 2
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/deprecation.py
+cfn=__call__
+calls=8 90
+31 3
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+cfn=_get_response
+calls=1 85
+31 1
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+fn=serve
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 396
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+cfn=was_modified_since
+calls=1 108
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/_os.py
+cfn=safe_join
+calls=1 24
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=exists
+calls=1 1331
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__new__
+calls=1 998
+19 0
+cfl=/usr/lib/python3.6/mimetypes.py
+cfn=guess_type
+calls=1 271
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=is_dir
+calls=1 1343
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/http.py
+cfn=http_date
+calls=1 142
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+19 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath
+calls=1 338
+19 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+19 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=open
+calls=1 1174
+19 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+fn=was_modified_since
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+19 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+67 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=parse_header
+calls=1 313
+67 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 19
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+67 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+67 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=COOKIES
+116 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/cookie.py
+cfn=parse_cookie
+calls=1 10
+116 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_str_from_wsgi
+calls=1 207
+116 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=<genexpr>
+148 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__call__
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+cfn=get_response
+calls=1 71
+137 3
+cfl=/usr/lib/python3.6/wsgiref/util.py
+cfn=__init__
+calls=1 14
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=reason_phrase
+calls=1 64
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=items
+calls=1 152
+137 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=start_response
+calls=1 212
+137 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=<genexpr>
+calls=1 148
+137 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 67
+137 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=set_script_prefix
+calls=1 102
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 152
+137 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_script_name
+163 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+163 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 194
+163 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_bytes_from_wsgi
+194 0
+cfn=<method 'encode' of 'str' objects>
+calls=9 0
+194 0
+cfn=<method 'get' of 'dict' objects>
+calls=9 0
+194 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_str_from_wsgi
+207 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=1 0
+207 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=1 194
+207 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_path_info
+156 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+156 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 194
+156 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=repercent_broken_unicode
+calls=2 222
+156 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+fn=make_view_atomic
+64 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+64 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+64 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+fn=get_response
+71 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+71 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=1 31
+71 3
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=set_urlconf
+calls=1 130
+71 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+fn=_get_response
+85 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=1 521
+85 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+85 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/base.py
+cfn=make_view_atomic
+calls=1 64
+85 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+cfn=serve
+calls=1 19
+85 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__getitem__
+calls=4 55
+85 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=process_view
+calls=1 206
+85 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+fn=close_if_unusable_or_obsolete
+492 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+fn=queries
+152 0
+cfn=<built-in method builtins.len>
+calls=1 0
+152 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=_sanitize_token
+106 0
+cfl=/usr/lib/python3.6/re.py
+cfn=search
+calls=1 179
+106 0
+cfn=<built-in method builtins.len>
+calls=1 0
+106 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=_accept
+142 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=_get_token
+159 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=_sanitize_token
+calls=1 106
+159 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=process_request
+200 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=_get_token
+calls=1 159
+200 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=process_view
+206 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=_accept
+calls=1 142
+206 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+206 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=process_response
+315 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+315 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+315 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/__init__.py
+fn=default_storage
+5 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+cfn=__init__
+calls=1 13
+5 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+5 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=resolve
+343 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=4 247
+343 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=10 149
+343 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__init__
+calls=2 31
+343 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__str__
+calls=2 188
+343 0
+cfn=<method 'update' of 'dict' objects>
+calls=2 0
+343 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=_join_route
+507 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=<genexpr>
+533 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=resolve
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=12 247
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=12 521
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=2 149
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__init__
+calls=2 31
+521 0
+cfn=<method 'append' of 'list' objects>
+calls=22 0
+521 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=_join_route
+calls=2 507
+521 0
+cfn=<method 'extend' of 'list' objects>
+calls=2 0
+521 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=14 343
+521 0
+cfn=<method 'update' of 'dict' objects>
+calls=2 0
+521 0
+cfn=<method 'get' of 'dict' objects>
+calls=12 0
+521 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=match
+247 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=16 0
+247 0
+cfn=<method 'end' of '_sre.SRE_Match' objects>
+calls=2 0
+247 0
+cfn=<method 'groupdict' of '_sre.SRE_Match' objects>
+calls=2 0
+247 0
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+247 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/_os.py
+fn=safe_join
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join
+calls=1 75
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=abspath
+calls=2 376
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normcase
+calls=2 52
+24 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+24 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__str__
+188 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__getitem__
+55 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+356 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=streaming_content
+calls=1 373
+356 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 38
+356 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=streaming_content
+373 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_set_streaming_content
+calls=1 401
+373 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_set_streaming_content
+377 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+377 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+377 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+396 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 356
+396 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_set_streaming_content
+401 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_set_streaming_content
+calls=1 377
+401 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=set_headers
+calls=1 413
+401 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+401 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+401 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+401 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=set_headers
+413 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=isabs
+calls=1 64
+413 0
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=getsize
+calls=1 48
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=1 155
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+cfn=DEFAULT_CONTENT_TYPE
+calls=1 118
+413 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+413 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+413 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+413 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=match
+149 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=12 0
+149 0
+cfn=<method 'end' of '_sre.SRE_Match' objects>
+calls=4 0
+149 0
+cfn=<method 'groups' of '_sre.SRE_Match' objects>
+calls=2 0
+149 0
+cfn=<method 'groupdict' of '_sre.SRE_Match' objects>
+calls=4 0
+149 0
+
+fl=/usr/lib/python3.6/mimetypes.py
+fn=guess_type
+97 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=splittype
+calls=1 968
+97 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=splitext
+calls=1 121
+97 0
+
+fl=/usr/lib/python3.6/mimetypes.py
+fn=guess_type
+271 0
+cfl=/usr/lib/python3.6/mimetypes.py
+cfn=guess_type
+calls=1 97
+271 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/http.py
+fn=http_date
+142 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=formatdate
+calls=1 138
+142 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_convert_to_charset
+108 0
+cfn=<built-in method builtins.isinstance>
+calls=32 0
+108 0
+cfn=<method 'encode' of 'str' objects>
+calls=8 0
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__setitem__
+135 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_convert_to_charset
+calls=8 108
+135 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+135 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=items
+152 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+152 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=get
+155 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+155 0
+cfn=<method 'get' of 'dict' objects>
+calls=4 0
+155 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=_parseparam
+301 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+301 0
+cfn=<built-in method builtins.len>
+calls=1 0
+301 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+301 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=parse_header
+313 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=_parseparam
+calls=2 301
+313 0
+
+fl=/usr/lib/python3.6/http/cookies.py
+fn=__init__
+506 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=_get_raw_host
+74 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=get_host
+93 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=split_domain_port
+calls=1 565
+93 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=validate_host
+calls=1 587
+93 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=_get_raw_host
+calls=1 74
+93 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=get_full_path
+121 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=_get_full_path
+calls=2 127
+121 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=_get_full_path
+127 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=escape_uri_path
+calls=2 205
+127 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+127 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=is_ajax
+230 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+230 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__init__
+31 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=<listcomp>
+calls=2 42
+31 0
+cfn=<method 'join' of 'str' objects>
+calls=12 0
+31 0
+cfn=<built-in method builtins.hasattr>
+calls=4 0
+31 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=<listcomp>
+calls=2 40
+31 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+38 0
+cfl=/usr/lib/python3.6/http/cookies.py
+cfn=__init__
+calls=1 506
+38 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+38 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=split_domain_port
+565 0
+cfn=<built-in method builtins.len>
+calls=1 0
+565 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+565 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=1 0
+565 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=1 0
+565 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+565 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=<genexpr>
+602 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+fn=validate_host
+587 0
+cfn=<built-in method builtins.any>
+calls=1 0
+587 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/request.py
+cfn=<genexpr>
+calls=1 602
+587 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=reason_phrase
+64 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+64 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=set_script_prefix
+102 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+102 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=set_urlconf
+130 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=get_urlconf
+142 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+142 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=is_valid_path
+150 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=resolve
+calls=1 21
+150 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+fn=escape_uri_path
+205 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=quote
+calls=2 783
+205 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+fn=repercent_broken_unicode
+222 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+222 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=<listcomp>
+40 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=<listcomp>
+42 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/cookie.py
+fn=parse_cookie
+10 0
+cfn=<method 'strip' of 'str' objects>
+calls=6 0
+10 0
+cfl=/usr/lib/python3.6/http/cookies.py
+cfn=_unquote
+calls=3 195
+10 0
+cfn=<method 'split' of 'str' objects>
+calls=4 0
+10 0
+
+fl=/usr/lib/python3.6/http/cookies.py
+fn=_unquote
+195 0
+cfn=<built-in method builtins.len>
+calls=3 0
+195 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=resolve
+21 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=get_urlconf
+calls=1 142
+21 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=1 521
+21 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_clear_dead_receivers
+214 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_live_receivers
+223 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 214
+223 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=1 7
+223 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+223 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+223 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/inspect.py
+fn=<genexpr>
+38 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=kind
+calls=17 2514
+38 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/inspect.py
+fn=func_accepts_kwargs
+36 0
+cfn=<built-in method builtins.any>
+calls=3 0
+36 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=parameters
+calls=3 2817
+36 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+36 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/inspect.py
+cfn=<genexpr>
+calls=3 38
+36 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=signature
+calls=3 3063
+36 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+fn=reset_queries
+45 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+45 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+45 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+fn=close_old_connections
+55 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+55 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 492
+55 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=__getitem__
+194 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+194 0
+cfn=<built-in method builtins.getattr>
+calls=6 0
+194 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=__iter__
+212 0
+cfn=<built-in method builtins.iter>
+calls=6 0
+212 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=<listcomp>
+216 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=5 194
+216 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=all
+215 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__iter__
+calls=5 212
+215 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=<listcomp>
+calls=5 216
+215 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/cache/__init__.py
+fn=__init__
+63 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_make_id
+7 0
+cfn=<built-in method builtins.id>
+calls=13 0
+7 0
+cfn=<built-in method builtins.hasattr>
+calls=9 0
+7 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=<genexpr>
+109 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=connect
+49 0
+cfn=<built-in method builtins.any>
+calls=3 0
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=3 214
+49 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=6 7
+49 0
+cfn=<method 'append' of 'list' objects>
+calls=3 0
+49 0
+cfl=/usr/lib/python3.6/weakref.py
+cfn=__init__
+calls=3 526
+49 0
+cfl=/usr/lib/python3.6/weakref.py
+cfn=__new__
+calls=3 44
+49 0
+cfn=<method 'clear' of 'dict' objects>
+calls=3 0
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/inspect.py
+cfn=func_accepts_kwargs
+calls=3 36
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+cfn=configured
+calls=3 113
+49 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=3 997
+49 0
+cfn=<built-in method builtins.callable>
+calls=3 0
+49 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=disconnect
+113 0
+cfn=<built-in method builtins.len>
+calls=1 0
+113 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 214
+113 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=2 7
+113 0
+cfn=<method 'clear' of 'dict' objects>
+calls=1 0
+113 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=<listcomp>
+174 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+cfn=reset_queries
+calls=1 45
+174 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+cfn=close_old_connections
+calls=1 55
+174 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=send
+152 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=<listcomp>
+calls=1 174
+152 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+152 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_live_receivers
+calls=1 223
+152 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+fn=__init__
+273 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__setattr__
+calls=2 280
+273 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+fn=__setattr__
+280 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+fn=__init__
+379 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 273
+379 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=signature
+3063 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=from_callable
+calls=3 2811
+3063 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=_is_wrapper
+505 0
+cfn=<built-in method builtins.hasattr>
+calls=3 0
+505 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=unwrap
+485 0
+cfn=<built-in method builtins.id>
+calls=3 0
+485 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=_is_wrapper
+calls=3 505
+485 0
+cfn=<built-in method sys.getrecursionlimit>
+calls=3 0
+485 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=_signature_bound_method
+1787 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=kind
+calls=6 2514
+1787 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=parameters
+calls=3 2817
+1787 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+1787 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=replace
+calls=3 2825
+1787 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=_signature_from_function
+2102 0
+cfn=<built-in method builtins.len>
+calls=1 0
+2102 0
+cfn=<method 'append' of 'list' objects>
+calls=20 0
+2102 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=__init__
+calls=3 2732
+2102 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isfunction
+calls=3 159
+2102 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=__init__
+calls=20 2452
+2102 0
+cfn=<method 'get' of 'dict' objects>
+calls=23 0
+2102 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=_signature_from_callable
+2183 0
+cfn=<built-in method builtins.isinstance>
+calls=9 0
+2183 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=_signature_bound_method
+calls=3 1787
+2183 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isfunction
+calls=3 159
+2183 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=_signature_from_function
+calls=3 2102
+2183 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=_signature_from_callable
+calls=3 2183
+2183 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=unwrap
+calls=3 485
+2183 0
+cfn=<built-in method builtins.callable>
+calls=6 0
+2183 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=__init__
+2452 0
+cfn=<built-in method builtins.isinstance>
+calls=20 0
+2452 0
+cfn=<method 'isidentifier' of 'str' objects>
+calls=20 0
+2452 0
+cfl=/usr/lib/python3.6/enum.py
+cfn=__call__
+calls=20 267
+2452 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=name
+2502 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=default
+2506 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=kind
+2514 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=<genexpr>
+2781 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=name
+calls=20 2502
+2781 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=__init__
+2732 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=kind
+calls=17 2514
+2732 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=<genexpr>
+calls=23 2781
+2732 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=name
+calls=17 2502
+2732 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=default
+calls=14 2506
+2732 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=from_callable
+2811 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=_signature_from_callable
+calls=3 2183
+2811 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=parameters
+2817 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=replace
+2825 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=__init__
+calls=3 2732
+2825 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+fn=configured
+113 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+fn=DEFAULT_CONTENT_TYPE
+118 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+cfn=__getattr__
+calls=1 76
+118 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=dirname
+calls=1 154
+118 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=__iter__
+calls=1 276
+118 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=extract_stack
+calls=1 200
+118 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+118 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=parse_parts
+51 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+51 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=splitroot
+calls=1 282
+51 0
+cfn=<built-in method sys.intern>
+calls=7 0
+51 0
+cfn=<method 'append' of 'list' objects>
+calls=8 0
+51 0
+cfn=<method 'split' of 'str' objects>
+calls=1 0
+51 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=splitroot
+282 0
+cfn=<built-in method builtins.len>
+calls=2 0
+282 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+282 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=wrapped
+385 0
+cfn=<built-in method posix.open>
+calls=1 0
+385 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=4 691
+385 0
+cfn=<built-in method posix.stat>
+calls=3 0
+385 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/deprecation.py
+fn=__call__
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/auth/middleware.py
+cfn=process_request
+calls=1 17
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+cfn=process_request
+calls=1 11
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=process_request
+calls=1 200
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=process_response
+calls=1 315
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+cfn=process_response
+calls=1 22
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+cfn=process_response
+calls=1 14
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+cfn=process_response
+calls=1 98
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/security.py
+cfn=process_response
+calls=1 30
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/clickjacking.py
+cfn=process_response
+calls=1 24
+90 0
+cfn=<built-in method builtins.hasattr>
+calls=16 0
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/common.py
+cfn=process_request
+calls=1 34
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+cfn=process_request
+calls=1 18
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/middleware/security.py
+cfn=process_request
+calls=1 20
+90 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=8 31
+90 3
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_parse_args
+631 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=parse_parts
+calls=1 51
+631 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+631 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+631 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+631 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_from_parts
+651 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_parse_args
+calls=1 631
+651 0
+cfn=<built-in method __new__ of type object at 0x9d12c0>
+calls=1 0
+651 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_format_parsed_parts
+674 0
+cfn=<method 'join' of 'str' objects>
+calls=1 0
+674 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__str__
+691 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_format_parsed_parts
+calls=1 674
+691 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__new__
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_from_parts
+calls=1 651
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_init
+calls=1 1008
+998 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_init
+1008 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_opener
+1035 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=wrapped
+calls=1 385
+1035 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=stat
+1153 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=wrapped
+calls=3 385
+1153 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=open
+1174 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+1174 0
+cfn=<built-in method io.open>
+calls=1 0
+1174 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=exists
+1331 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+1331 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=is_dir
+1343 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+1343 0
+cfn=<built-in method _stat.S_ISDIR>
+calls=1 0
+1343 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/functional.py
+fn=__get__
+72 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=COOKIES
+calls=1 116
+72 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=isfunction
+159 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+159 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=quote
+783 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=quote_from_bytes
+calls=2 844
+783 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+783 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+783 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=quote_from_bytes
+844 0
+cfn=<method 'rstrip' of 'bytes' objects>
+calls=2 0
+844 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+844 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+844 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+844 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=splittype
+968 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=1 0
+968 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/module_loading.py
+fn=import_string
+7 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=2 0
+7 0
+cfl=/usr/lib/python3.6/importlib/__init__.py
+cfn=import_module
+calls=2 108
+7 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+7 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+fn=__getattr__
+76 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+76 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=_format_timetuple_and_zone
+129 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=format_datetime
+167 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=_format_timetuple_and_zone
+calls=1 129
+167 0
+cfn=<method 'timetuple' of 'datetime.datetime' objects>
+calls=1 0
+167 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=formatdate
+138 0
+cfn=<built-in method fromtimestamp>
+calls=1 0
+138 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=format_datetime
+calls=1 167
+138 0
+
+fl=/usr/lib/python3.6/re.py
+fn=search
+179 0
+cfl=/usr/lib/python3.6/re.py
+cfn=_compile
+calls=1 286
+179 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=1 0
+179 0
+
+fl=/usr/lib/python3.6/re.py
+fn=_compile
+286 0
+
+fl=/usr/lib/python3.6/threading.py
+fn=current_thread
+1230 0
+cfn=<built-in method _thread.get_ident>
+calls=2 0
+1230 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=extract_stack
+200 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+200 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=extract
+calls=1 319
+200 0
+cfn=<built-in method sys._getframe>
+calls=1 0
+200 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=__init__
+243 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=__iter__
+276 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=line
+calls=1 283
+276 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+276 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=line
+283 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=getline
+calls=58 15
+283 0
+cfn=<method 'strip' of 'str' objects>
+calls=58 0
+283 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=walk_stack
+290 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=extract
+319 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=checkcache
+calls=21 53
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=line
+calls=58 283
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=__init__
+calls=58 243
+319 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=lazycache
+calls=58 147
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=walk_stack
+calls=59 290
+319 0
+cfn=<method 'add' of 'set' objects>
+calls=58 0
+319 0
+cfn=<method 'append' of 'list' objects>
+calls=58 0
+319 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+319 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=getline
+15 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=getlines
+calls=58 37
+15 0
+cfn=<built-in method builtins.len>
+calls=58 0
+15 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=getlines
+37 0
+cfn=<built-in method builtins.len>
+calls=58 0
+37 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=checkcache
+53 0
+cfn=<built-in method builtins.len>
+calls=21 0
+53 0
+cfn=<built-in method posix.stat>
+calls=21 0
+53 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=lazycache
+147 0
+cfn=<built-in method builtins.len>
+calls=58 0
+147 0
+
+fl=/home/ilya/PycharmProjects/geekshop/geekshop/settings.py
+fn=<lambda>
+205 0
+
+fl=/usr/lib/python3.6/enum.py
+fn=__new__
+517 0
+
+fl=/usr/lib/python3.6/enum.py
+fn=__call__
+267 0
+cfl=/usr/lib/python3.6/enum.py
+cfn=__new__
+calls=20 517
+267 0
+
+fl=/usr/lib/python3.6/weakref.py
+fn=__init__
+526 0
+cfn=<built-in method builtins.next>
+calls=3 0
+526 0
+
+fl=/usr/lib/python3.6/weakref.py
+fn=__new__
+44 0
+cfn=<built-in method __new__ of type object at 0x9d12c0>
+calls=3 0
+44 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=_get_sep
+41 0
+cfn=<built-in method builtins.isinstance>
+calls=5 0
+41 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=normcase
+52 0
+cfn=<built-in method posix.fspath>
+calls=2 0
+52 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+52 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=isabs
+64 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=3 41
+64 0
+cfn=<built-in method posix.fspath>
+calls=3 0
+64 0
+cfn=<method 'startswith' of 'str' objects>
+calls=3 0
+64 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=join
+75 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=1 41
+75 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+75 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+75 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+75 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=splitext
+121 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+121 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+121 0
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=_splitext
+calls=1 117
+121 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=dirname
+154 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+154 0
+cfn=<built-in method builtins.len>
+calls=1 0
+154 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=1 41
+154 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+154 0
+cfn=<method 'rfind' of 'str' objects>
+calls=1 0
+154 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=normpath
+338 0
+cfn=<method 'join' of 'str' objects>
+calls=3 0
+338 0
+cfn=<built-in method posix.fspath>
+calls=3 0
+338 0
+cfn=<method 'startswith' of 'str' objects>
+calls=5 0
+338 0
+cfn=<method 'append' of 'list' objects>
+calls=14 0
+338 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+338 0
+cfn=<method 'split' of 'str' objects>
+calls=3 0
+338 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=abspath
+376 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=isabs
+calls=2 64
+376 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath
+calls=2 338
+376 0
+cfn=<built-in method posix.fspath>
+calls=2 0
+376 0
+
+fl=/usr/lib/python3.6/genericpath.py
+fn=getsize
+48 0
+cfn=<built-in method posix.stat>
+calls=1 0
+48 0
+
+fl=/usr/lib/python3.6/genericpath.py
+fn=_splitext
+117 0
+cfn=<method 'rfind' of 'str' objects>
+calls=2 0
+117 0
+
+fl=/usr/lib/python3.6/importlib/__init__.py
+fn=import_module
+108 0
+cfl=<frozen importlib._bootstrap>
+cfn=_gcd_import
+calls=2 982
+108 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+108 0
+
+fl=<frozen importlib._bootstrap>
+fn=_sanity_check
+917 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+917 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module
+calls=2 194
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__
+calls=2 151
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=2 143
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__
+calls=2 147
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=4 176
+966 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+966 0
+
+fl=<frozen importlib._bootstrap>
+fn=_gcd_import
+982 0
+cfl=<frozen importlib._bootstrap>
+cfn=_sanity_check
+calls=2 917
+982 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=2 966
+982 0
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+997 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+997 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+997 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+58 0
+cfn=<built-in method _thread.allocate_lock>
+calls=8 0
+58 0
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+78 0
+cfn=<built-in method _thread.get_ident>
+calls=4 0
+78 0
+
+fl=<frozen importlib._bootstrap>
+fn=release
+103 0
+cfn=<built-in method _thread.get_ident>
+calls=4 0
+103 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+143 0
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 157
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 78
+147 0
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__
+151 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 103
+151 0
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+176 0
+cfn=<built-in method _imp.acquire_lock>
+calls=4 0
+176 0
+cfn=<built-in method _imp.release_lock>
+calls=4 0
+176 0
+cfn=<method 'get' of 'dict' objects>
+calls=4 0
+176 0
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+157 0
+cfn=<built-in method _imp.acquire_lock>
+calls=4 0
+157 0
+cfn=<built-in method _imp.release_lock>
+calls=4 0
+157 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=4 58
+157 0
+
+fl=<frozen importlib._bootstrap>
+fn=_lock_unlock_module
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 157
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 103
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 78
+194 0
+

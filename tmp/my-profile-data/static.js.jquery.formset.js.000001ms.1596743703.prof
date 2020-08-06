@@ -1,0 +1,1377 @@
+events: Ticks
+summary: 1
+fn=<method 'add' of 'set' objects>
+0  0
+
+fn=<method '__contains__' of 'dict' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'values' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'reverse' of 'list' objects>
+0  0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'join' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rfind' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isdigit' of 'str' objects>
+0  0
+
+fn=<built-in method posix.stat>
+0  0
+
+fn=<built-in method posix.getcwd>
+0  0
+
+fn=<built-in method posix.open>
+0  0
+
+fn=<built-in method posix.fspath>
+0  0
+
+fn=<method 'match' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<built-in method _stat.S_ISDIR>
+0  0
+
+fn=<built-in method io.open>
+0  0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_opener
+calls=1 1035
+0 0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<built-in method fromtimestamp>
+0  0
+
+fn=<method 'timetuple' of 'datetime.datetime' objects>
+0  0
+
+fn=<built-in method builtins.getattr>
+0  0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+
+fn=<built-in method __new__ of type object at 0x9d12c0>
+0  0
+
+fn=<built-in method sys._getframe>
+0  0
+
+fn=<built-in method sys.intern>
+0  0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0  0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=start_response
+212 0
+cfn=<built-in method builtins.len>
+calls=1 0
+212 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=__init__
+calls=1 31
+212 0
+cfl=/usr/lib/python3.6/wsgiref/util.py
+cfn=is_hop_by_hop
+calls=3 163
+212 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=_convert_string_type
+calls=7 240
+212 0
+cfn=<method 'isdigit' of 'str' objects>
+calls=1 0
+212 0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=_convert_string_type
+240 0
+
+fl=/usr/lib/python3.6/wsgiref/util.py
+fn=__init__
+14 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+14 0
+
+fl=/usr/lib/python3.6/wsgiref/util.py
+fn=is_hop_by_hop
+163 0
+cfn=<method 'lower' of 'str' objects>
+calls=3 0
+163 0
+cfn=<method '__contains__' of 'dict' objects>
+calls=3 0
+163 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=__init__
+31 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=_convert_string_type
+calls=6 41
+31 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=_convert_string_type
+41 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=_should_handle
+34 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+34 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=file_path
+42 0
+cfn=<built-in method builtins.len>
+calls=1 0
+42 0
+cfl=/usr/lib/python3.6/urllib/request.py
+cfn=url2pathname
+calls=1 1657
+42 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=serve
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=file_path
+calls=1 42
+49 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/views.py
+cfn=serve
+calls=1 15
+49 1
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=get_response
+53 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=serve
+calls=1 49
+53 1
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=1 997
+53 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=_should_handle
+calls=1 34
+53 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=__call__
+63 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=_should_handle
+calls=1 34
+63 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__call__
+calls=1 137
+63 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+63 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/views.py
+fn=serve
+15 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+cfn=serve
+calls=1 19
+15 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=split
+calls=1 104
+15 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+cfn=find
+calls=1 259
+15 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath
+calls=1 338
+15 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+15 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+fn=serve
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+cfn=was_modified_since
+calls=1 108
+19 0
+cfl=/usr/lib/python3.6/mimetypes.py
+cfn=guess_type
+calls=1 271
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=exists
+calls=1 1331
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=open
+calls=1 1174
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 396
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__new__
+calls=1 998
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/_os.py
+cfn=safe_join
+calls=1 24
+19 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/http.py
+cfn=http_date
+calls=1 142
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+19 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=is_dir
+calls=1 1343
+19 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+19 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath
+calls=1 338
+19 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+19 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/views/static.py
+fn=was_modified_since
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+19 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+67 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=parse_header
+calls=1 313
+67 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 19
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+67 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+67 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+67 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+67 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=<genexpr>
+148 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__call__
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=get_response
+calls=1 53
+137 1
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+cfn=set_script_prefix
+calls=1 102
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 152
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+137 0
+cfl=/usr/lib/python3.6/wsgiref/util.py
+cfn=__init__
+calls=1 14
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=items
+calls=1 152
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=reason_phrase
+calls=1 64
+137 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+137 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=start_response
+calls=1 212
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=<genexpr>
+calls=1 148
+137 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 67
+137 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+137 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+137 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_script_name
+163 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+163 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 194
+163 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_bytes_from_wsgi
+194 0
+cfn=<method 'encode' of 'str' objects>
+calls=8 0
+194 0
+cfn=<method 'get' of 'dict' objects>
+calls=8 0
+194 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_path_info
+156 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=repercent_broken_unicode
+calls=2 222
+156 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+156 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 194
+156 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+fn=close_if_unusable_or_obsolete
+492 0
+
+fl=/usr/lib/python3.6/urllib/request.py
+fn=url2pathname
+1657 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=unquote
+calls=1 620
+1657 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+fn=find
+96 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+cfn=find_location
+calls=1 111
+96 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+96 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+fn=find_location
+111 0
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=exists
+calls=1 16
+111 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/_os.py
+cfn=safe_join
+calls=1 24
+111 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+fn=find
+259 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+cfn=find
+calls=1 96
+259 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+cfn=get_finders
+calls=2 281
+259 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py
+fn=get_finders
+281 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/_os.py
+fn=safe_join
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normcase
+calls=4 52
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=abspath
+calls=4 376
+24 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join
+calls=2 75
+24 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+24 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+356 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 38
+356 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=streaming_content
+calls=1 373
+356 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=streaming_content
+373 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_set_streaming_content
+calls=1 401
+373 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_set_streaming_content
+377 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+377 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+377 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+396 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 356
+396 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_set_streaming_content
+401 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=set_headers
+calls=1 413
+401 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+401 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_set_streaming_content
+calls=1 377
+401 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+401 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+401 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=set_headers
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+413 0
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=getsize
+calls=1 48
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=1 155
+413 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=isabs
+calls=1 64
+413 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+cfn=DEFAULT_CONTENT_TYPE
+calls=1 118
+413 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+413 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+413 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+413 0
+
+fl=/usr/lib/python3.6/mimetypes.py
+fn=guess_type
+97 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=splittype
+calls=1 968
+97 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=splitext
+calls=1 121
+97 0
+
+fl=/usr/lib/python3.6/mimetypes.py
+fn=guess_type
+271 0
+cfl=/usr/lib/python3.6/mimetypes.py
+cfn=guess_type
+calls=1 97
+271 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/http.py
+fn=http_date
+142 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=formatdate
+calls=1 138
+142 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=_convert_to_charset
+108 0
+cfn=<method 'encode' of 'str' objects>
+calls=6 0
+108 0
+cfn=<built-in method builtins.isinstance>
+calls=24 0
+108 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__setitem__
+135 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=_convert_to_charset
+calls=6 108
+135 0
+cfn=<method 'lower' of 'str' objects>
+calls=3 0
+135 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=items
+152 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+152 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=get
+155 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+155 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+155 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=_parseparam
+301 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+301 0
+cfn=<built-in method builtins.len>
+calls=1 0
+301 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+301 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=parse_header
+313 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=_parseparam
+calls=2 301
+313 0
+
+fl=/usr/lib/python3.6/http/cookies.py
+fn=__init__
+506 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+38 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+38 0
+cfl=/usr/lib/python3.6/http/cookies.py
+cfn=__init__
+calls=1 506
+38 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/http/response.py
+fn=reason_phrase
+64 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+64 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/urls/base.py
+fn=set_script_prefix
+102 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+102 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/utils/encoding.py
+fn=repercent_broken_unicode
+222 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+222 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_clear_dead_receivers
+214 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_live_receivers
+223 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=1 7
+223 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 214
+223 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+223 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+223 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+fn=reset_queries
+45 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+45 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+45 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+fn=close_old_connections
+55 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 215
+55 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/backends/base/base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 492
+55 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=__getitem__
+194 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+194 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+194 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=__iter__
+212 0
+cfn=<built-in method builtins.iter>
+calls=2 0
+212 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=<listcomp>
+216 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=2 194
+216 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+fn=all
+215 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=__iter__
+calls=2 212
+215 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/utils.py
+cfn=<listcomp>
+calls=2 216
+215 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_make_id
+7 0
+cfn=<built-in method builtins.id>
+calls=1 0
+7 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+7 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=<listcomp>
+174 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+cfn=reset_queries
+calls=1 45
+174 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/db/__init__.py
+cfn=close_old_connections
+calls=1 55
+174 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=send
+152 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_live_receivers
+calls=1 223
+152 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=<listcomp>
+calls=1 174
+152 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+152 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+fn=DEFAULT_CONTENT_TYPE
+118 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=extract_stack
+calls=1 200
+118 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+118 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=__iter__
+calls=1 276
+118 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=dirname
+calls=1 154
+118 0
+cfl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+cfn=__getattr__
+calls=1 76
+118 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=parse_parts
+51 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=splitroot
+calls=1 282
+51 0
+cfn=<built-in method sys.intern>
+calls=7 0
+51 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+51 0
+cfn=<method 'append' of 'list' objects>
+calls=8 0
+51 0
+cfn=<method 'split' of 'str' objects>
+calls=1 0
+51 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=splitroot
+282 0
+cfn=<built-in method builtins.len>
+calls=2 0
+282 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+282 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=wrapped
+385 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=4 691
+385 0
+cfn=<built-in method posix.open>
+calls=1 0
+385 0
+cfn=<built-in method posix.stat>
+calls=3 0
+385 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_parse_args
+631 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=parse_parts
+calls=1 51
+631 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+631 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+631 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+631 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_from_parts
+651 0
+cfn=<built-in method __new__ of type object at 0x9d12c0>
+calls=1 0
+651 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_parse_args
+calls=1 631
+651 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_format_parsed_parts
+674 0
+cfn=<method 'join' of 'str' objects>
+calls=1 0
+674 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__str__
+691 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_format_parsed_parts
+calls=1 674
+691 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__new__
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_from_parts
+calls=1 651
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_init
+calls=1 1008
+998 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_init
+1008 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_opener
+1035 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=wrapped
+calls=1 385
+1035 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=stat
+1153 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=wrapped
+calls=3 385
+1153 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=open
+1174 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+1174 0
+cfn=<built-in method io.open>
+calls=1 0
+1174 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=exists
+1331 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+1331 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=is_dir
+1343 0
+cfn=<built-in method _stat.S_ISDIR>
+calls=1 0
+1343 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=stat
+calls=1 1153
+1343 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=unquote
+620 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=splittype
+968 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=1 0
+968 0
+
+fl=/home/ilya/.local/lib/python3.6/site-packages/django/conf/__init__.py
+fn=__getattr__
+76 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+76 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=_format_timetuple_and_zone
+129 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=format_datetime
+167 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=_format_timetuple_and_zone
+calls=1 129
+167 0
+cfn=<method 'timetuple' of 'datetime.datetime' objects>
+calls=1 0
+167 0
+
+fl=/usr/lib/python3.6/email/utils.py
+fn=formatdate
+138 0
+cfl=/usr/lib/python3.6/email/utils.py
+cfn=format_datetime
+calls=1 167
+138 0
+cfn=<built-in method fromtimestamp>
+calls=1 0
+138 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=extract_stack
+200 0
+cfn=<built-in method sys._getframe>
+calls=1 0
+200 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+200 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=extract
+calls=1 319
+200 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=__init__
+243 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=__iter__
+276 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=line
+calls=1 283
+276 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+276 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=line
+283 0
+cfn=<method 'strip' of 'str' objects>
+calls=23 0
+283 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=getline
+calls=23 15
+283 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=walk_stack
+290 0
+
+fl=/usr/lib/python3.6/traceback.py
+fn=extract
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=line
+calls=23 283
+319 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=checkcache
+calls=12 53
+319 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+319 0
+cfn=<method 'append' of 'list' objects>
+calls=23 0
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=walk_stack
+calls=24 290
+319 0
+cfl=/usr/lib/python3.6/traceback.py
+cfn=__init__
+calls=23 243
+319 0
+cfn=<method 'add' of 'set' objects>
+calls=23 0
+319 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=lazycache
+calls=23 147
+319 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=getline
+15 0
+cfn=<built-in method builtins.len>
+calls=23 0
+15 0
+cfl=/usr/lib/python3.6/linecache.py
+cfn=getlines
+calls=23 37
+15 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=getlines
+37 0
+cfn=<built-in method builtins.len>
+calls=23 0
+37 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=checkcache
+53 0
+cfn=<built-in method builtins.len>
+calls=12 0
+53 0
+cfn=<built-in method posix.stat>
+calls=12 0
+53 0
+
+fl=/usr/lib/python3.6/linecache.py
+fn=lazycache
+147 0
+cfn=<built-in method builtins.len>
+calls=23 0
+147 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=_get_sep
+41 0
+cfn=<built-in method builtins.isinstance>
+calls=11 0
+41 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=normcase
+52 0
+cfn=<built-in method posix.fspath>
+calls=4 0
+52 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+52 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=isabs
+64 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=5 41
+64 0
+cfn=<method 'startswith' of 'str' objects>
+calls=5 0
+64 0
+cfn=<built-in method posix.fspath>
+calls=5 0
+64 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=join
+75 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=4 41
+75 0
+cfn=<method 'endswith' of 'str' objects>
+calls=4 0
+75 0
+cfn=<method 'startswith' of 'str' objects>
+calls=4 0
+75 0
+cfn=<built-in method posix.fspath>
+calls=4 0
+75 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=split
+104 0
+cfn=<built-in method builtins.len>
+calls=1 0
+104 0
+cfn=<method 'rfind' of 'str' objects>
+calls=1 0
+104 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=1 41
+104 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+104 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+104 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=splitext
+121 0
+cfl=/usr/lib/python3.6/genericpath.py
+cfn=_splitext
+calls=1 117
+121 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+121 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+121 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=dirname
+154 0
+cfn=<built-in method builtins.len>
+calls=1 0
+154 0
+cfn=<method 'rfind' of 'str' objects>
+calls=1 0
+154 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=1 41
+154 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+154 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+154 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=normpath
+338 0
+cfn=<method 'startswith' of 'str' objects>
+calls=10 0
+338 0
+cfn=<method 'append' of 'list' objects>
+calls=28 0
+338 0
+cfn=<method 'split' of 'str' objects>
+calls=6 0
+338 0
+cfn=<built-in method posix.fspath>
+calls=6 0
+338 0
+cfn=<method 'join' of 'str' objects>
+calls=6 0
+338 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+338 0
+
+fl=/usr/lib/python3.6/posixpath.py
+fn=abspath
+376 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=join
+calls=2 75
+376 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=isabs
+calls=4 64
+376 0
+cfn=<built-in method posix.getcwd>
+calls=2 0
+376 0
+cfl=/usr/lib/python3.6/posixpath.py
+cfn=normpath
+calls=4 338
+376 0
+cfn=<built-in method posix.fspath>
+calls=4 0
+376 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+376 0
+
+fl=/usr/lib/python3.6/genericpath.py
+fn=exists
+16 0
+cfn=<built-in method posix.stat>
+calls=1 0
+16 0
+
+fl=/usr/lib/python3.6/genericpath.py
+fn=getsize
+48 0
+cfn=<built-in method posix.stat>
+calls=1 0
+48 0
+
+fl=/usr/lib/python3.6/genericpath.py
+fn=_splitext
+117 0
+cfn=<method 'rfind' of 'str' objects>
+calls=2 0
+117 0
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+997 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+997 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+997 0
+

@@ -1,6 +1,6 @@
 def basket(request):
     if request.user.is_authenticated:
-        basket = request.user.basket.all()
+        basket = request.user.basket.select_related().all()
     else:
         basket = []
 
