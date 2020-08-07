@@ -26,4 +26,4 @@ class OrderItemForm(BaseFormControlForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['product'].queryset = Product.get_active_items(self)
+        self.fields['product'].queryset = Product.get_active_items(self).select_related()
