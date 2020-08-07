@@ -1,0 +1,9 @@
+http://104.45.43.86/
+http://104.45.43.86/category/0/products/
+http://104.45.43.86/category/1/products/
+http://104.45.43.86/category/2/products/
+http://104.45.43.86/category/3/products/
+http://104.45.43.86/contacts/
+http://104.45.43.86/basket/
+http://104.45.43.86/orders/
+http://104.45.43.86/orders/order/update/1/
