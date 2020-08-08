@@ -1,5 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.db import models
+from django.utils.functional import cached_property
+
 from authapp.models import ShopUser
 from mainapp.models import Product
 
@@ -49,6 +51,13 @@ class Order(models.Model):
     def get_total_cost(self):
         items = self.orderitems.all()
         return sum(list(map(lambda x:x.quantity*x.product.price, items)))
+
+    def get_summary(self):
+        items = self.orderitems.select_related()
+        return {
+            'total_cost':sum(list(map(lambda x: x.quantity * x.product.price, items))),
+            'total_quantity':sum(list(map(lambda x: x.quantity, items)))
+        }
 
     # def delete(self):
     #     for item in self.orderitems.all():
