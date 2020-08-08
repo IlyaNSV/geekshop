@@ -4,7 +4,7 @@ from django.db import models
 class ProductCategory(models.Model):
     name = models.CharField('имя категории', max_length=64)
     description = models.TextField('описание категории', blank=True)
-    is_active = models.BooleanField(default=True)
+    is_active = models.BooleanField(db_index=True, default=True)
 
 
 class Product(models.Model):
@@ -15,7 +15,7 @@ class Product(models.Model):
     desc = models.TextField('описание товара', blank=True)
     price = models.DecimalField('цена продукта', max_digits=8, decimal_places=2, default=0)
     quantity = models.PositiveIntegerField('количество на складе', default=0)
-    is_active = models.BooleanField(default=True)
+    is_active = models.BooleanField(db_index=True, default=True)
 
     @staticmethod
     def get_active_items(self):

@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.functional import cached_property
 
 from authapp.models import ShopUser
 from mainapp.models import Product
@@ -21,22 +22,23 @@ class Basket(models.Model):
     add_datetime = models.DateTimeField(verbose_name='время', auto_now_add=True)
 
     # objects = BasketQuerySet.as_manager()
-    
+
+    @cached_property
+    def get_items_cached(self):
+        return self.user.basket.select_related().all()
+
     @property
     def product_cost(self):
         return self.product.price * self.quantity
 
     @property
     def total_quantity(self):
-        # _items = self.user.basket_set.all()
-        # _items = self.user.basket.all()
-        #return sum(map(lambda x: x.quantity, self.user.basket.all()))
-        return sum(self.user.basket.values_list('quantity', flat=True))
+        return sum(map(lambda x: x.quantity, self.get_items_cached))
+        # return sum(self.user.basket.values_list('quantity', flat=True))
 
     @property
     def total_cost(self):
-        return sum(map(lambda x: x.product_cost, self.user.basket.all()))
-
+        return sum(map(lambda x: x.product_cost, self.get_items_cached))
 
     @staticmethod
     def get_item(pk):
