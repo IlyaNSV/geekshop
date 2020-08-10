@@ -1,5 +1,6 @@
 from django.contrib.auth.decorators import user_passes_test
 from django.db import connection
+from django.db.models import F
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.http import HttpResponseRedirect
@@ -109,12 +110,19 @@ class ProductCategoryUpdateView(SuperUserOnlyMixin, PageTitleMixin, UpdateView):
     success_url = reverse_lazy('my_admin:categories')
     form_class = AdminProductCategoryUpdateForm
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['title'] = 'категории/редактирование'
-        print(context)
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     context['title'] = 'категории/редактирование'
+    #     print(context)
+    #     return context
 
+    def form_valid(self, form):
+        if 'discount' in form.cleaned_data:
+            discount = form.cleaned_data['discount']
+            if discount:
+                self.object.product_set.update(price=F('price') * (1 - discount / 100))
+
+        return super().form_valid(form)
 
 class ProductCategoryDeleteView(SuperUserOnlyMixin, PageTitleMixin, DeleteView):
     model = ProductCategory

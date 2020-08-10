@@ -25,13 +25,13 @@ def add_product(request, pk):
     # basket = request.user.basket_set.filter(product.pk = pk).first()
 
     if not basket:
-        basket = Basket(user=request.user, product=product)
-
-    # basket.quantity += 1
-    basket.quantity = F('quantity')+1
-    # basket.product.quantity -= 1
-    # basket.product.save()
-    basket.save()
+        Basket.objects.create(user=request.user, product=product, quantity=1)
+    else:
+        # basket.quantity += 1
+        basket.quantity = F('quantity')+1
+        # basket.product.quantity -= 1
+        # basket.product.save()
+        basket.save()
 
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
