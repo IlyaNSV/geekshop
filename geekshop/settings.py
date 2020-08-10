@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')z-*_bs1d768b&-(%yqt4n#-@%)mahcyw*tm$nvc96dr0ina52'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'adminapp',
     'social_django',
     'ordersapp',
-    'debug_toolbar',
-    'template_profiler_panel',
-    'django_extensions',
+    # 'debug_toolbar',
+    # 'template_profiler_panel',
+    # 'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'social_django.middleware.SocialAuthExceptionMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'geekshop.urls'
@@ -235,4 +235,4 @@ if os.name == 'posix':
         }
     }
 
-LOW_CACHE = True
+LOW_CACHE = False
