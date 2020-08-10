@@ -8,15 +8,13 @@ from mainapp.models import ProductCategory, Product
 from django.conf import settings
 
 
-
-
-'''
 def load_from_json(file_name):
     with open(os.path.join(settings.JSON_PATH, f'{file_name}.json'),
               'r',
               encoding='utf-8'
-    ) as infile:
+              ) as infile:
         return json.load(infile)
+
 
 class Command(BaseCommand):
     help = 'Fill database with data'
@@ -25,22 +23,19 @@ class Command(BaseCommand):
         categories = load_from_json('categories')
 
         ProductCategory.objects.all().delete()
-        [ProductCategory.objects.create(**category) for category in categories]
+        categories_objs = [ProductCategory(**category) for category in categories]
+        ProductCategory.objects.bulk_create(categories_objs)
 
         products = load_from_json('products')
-        Product.objects.all().delete()
+
+        products_objs = []
         for product in products:
             category_name = product['category']
+            _category = ProductCategory.objects.get(name=category_name)
+            product['category'] = _category
+            products_objs.append(Product(**product))
+        Product.objects.bulk_create(products_objs)
 
-            _category = ProductCategory.objects.filter(name=category_name).first()
-            product['category']=_category
-            new_category = Product(**product)
-            new_category.save()
-            
-        if ShopUser.objects.filter(username='django').count() == 0:
-        ShopUser.objects.create(username='django',email='admin@geekshop.local',password='geekbrains')
-'''
-class Command(BaseCommand):
-    def handle(self, *args, **options):
+
         if not ShopUser.objects.filter(username='django').exists():
             ShopUser.objects.create_superuser(username='django', email='admin@geekshop.local', password='geekbrains')
