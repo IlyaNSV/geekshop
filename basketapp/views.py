@@ -1,5 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.db import transaction
+from django.db.models import F
 from django.db.models.signals import pre_save, pre_delete
 from django.dispatch import receiver
 from django.http import HttpResponseRedirect, JsonResponse
@@ -26,7 +27,8 @@ def add_product(request, pk):
     if not basket:
         basket = Basket(user=request.user, product=product)
 
-    basket.quantity += 1
+    # basket.quantity += 1
+    basket.quantity = F('quantity')+1
     # basket.product.quantity -= 1
     # basket.product.save()
     basket.save()

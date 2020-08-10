@@ -1,8 +1,8 @@
 from django.contrib.auth.decorators import user_passes_test
 from django.db import connection
-from django.db.models.signals import pre_save, post_save
+from django.db.models.signals import post_save
 from django.dispatch import receiver
-from django.http import HttpResponseRedirect, Http404
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse, reverse_lazy
 from django.utils.decorators import method_decorator
@@ -195,7 +195,7 @@ class ProductDeleteView(SuperUserOnlyMixin, PageTitleMixin, DeleteView):
         ))
 
 
-class ProductDetailView(DetailView, PageTitleMixin,):
+class ProductDetailView(DetailView, PageTitleMixin, ):
     model = Product
     pk_url_kwarg = 'product_pk'
 
@@ -204,7 +204,8 @@ def db_profile_by_query_type(prefix, query_type, queries):
     update_queries = list(filter(lambda x: query_type in x['sql'], queries))
     print(f'db_profile {query_type} for {prefix}:')
     [print(query['sql']) for query in update_queries]
-    
+
+
 @receiver(post_save, sender=ProductCategory)
 def product_is_active_update_productcategory_save(sender, instance, **kwargs):
     if instance.pk:
@@ -212,7 +213,7 @@ def product_is_active_update_productcategory_save(sender, instance, **kwargs):
             instance.product_set.update(is_active=True)
         else:
             instance.product_set.update(is_active=False)
-            
+
         db_profile_by_query_type(sender, 'UPDATE', connection.queries)
 # @user_passes_test(lambda x: x.is_superuser)
 # def index(request):
