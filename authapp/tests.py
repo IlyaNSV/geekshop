@@ -44,3 +44,17 @@ class TestUserManagement(TestCase):
     # def tearDown(self):
     #     call_command('sqlsequencereset', 'mainapp', 'authapp', 'ordersapp',
     #                  'basketapp')
+
+        def test_user_logout(self):
+            self.client.login(username='tarantino', password='geekbrains')
+
+            response = self.client.get('/auth/login/')
+            self.assertEqual(response.status_code, 200)
+            self.assertFalse(response.context['user'].is_anonymous)
+
+            response = self.client.get('/auth/logout/')
+            self.assertEqual(response.status_code, 302)
+
+            response = self.client.get('/')
+            self.assertEqual(response.status_code, 200)
+            self.assertTrue(response.context['user'].is_anonymous)
