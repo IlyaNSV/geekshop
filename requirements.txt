@@ -13,7 +13,7 @@ cupshelpers==1.0
 defer==1.0.4
 defusedxml==0.7.0rc1
 distro-info===0.18ubuntu0.18.04.1
-Django==2.2
+Django==2.2.18
 django-debug-toolbar==2.2
 django-debug-toolbar-template-profiler==2.0.1
 docker==4.1.0
