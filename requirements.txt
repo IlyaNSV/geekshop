@@ -39,7 +39,7 @@ netifaces==0.10.4
 oauth==1.0.1
 oauthlib==3.1.0
 olefile==0.45.1
-paramiko==2.7.0
+paramiko==2.10.1
 pexpect==4.2.1
 Pillow==7.2.0
 protobuf==3.0.0
