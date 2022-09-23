@@ -42,7 +42,7 @@ olefile==0.45.1
 paramiko==2.7.0
 pexpect==4.2.1
 Pillow==7.2.0
-protobuf==3.0.0
+protobuf==3.18.3
 psycopg2-binary==2.8.5
 pycairo==1.16.2
 pycparser==2.19
